@@ -1,0 +1,344 @@
+/* ======================
+   Variables (Light)
+====================== */
+:root {
+  --teal:        #8aaead;
+  --teal-light:  rgba(138, 174, 173, 0.15);
+  --teal-mid:    rgba(138, 174, 173, 0.45);
+  --teal-solid:  rgba(138, 174, 173, 0.85);
+  --bg-outer:    #a8c9c6;
+  --bg-page:     #f7f7f7;
+  --text:        #333;
+  --text-muted:  #666;
+  --border:      rgba(0, 0, 0, 0.05);
+  --page-width:  896px;
+  --radius:      10px;
+}
+
+/* ======================
+   Variables (Dark)
+====================== */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --teal:        #8aaead;
+    --teal-light:  rgba(138, 174, 173, 0.12);
+    --teal-mid:    rgba(138, 174, 173, 0.40);
+    --teal-solid:  rgba(138, 174, 173, 0.80);
+    --bg-outer:    #1e2e2d;
+    --bg-page:     #252f2f;
+    --text:        #e8e8e8;
+    --text-muted:  #9ab;
+    --border:      rgba(255, 255, 255, 0.06);
+  }
+}
+
+/* ======================
+   Reset / Base
+====================== */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Noto Sans TC", "Noto Sans", sans-serif;
+  font-size: 14px;
+  color: var(--text);
+  line-height: 1.6;
+
+  background-color: var(--bg-outer);
+  background-image:
+    linear-gradient(rgba(255,255,255,0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.08) 1px, transparent 1px);
+  background-size: 16px 16px;
+
+  min-height: 100vh;
+  padding: 32px 16px;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 0;
+  }
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* ======================
+   Page wrapper
+====================== */
+.page {
+  width: 100%;
+  max-width: var(--page-width);
+  margin: 0 auto;
+  background: var(--bg-page);
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.12);
+}
+
+@media (max-width: 600px) {
+  .page {
+    border-radius: 0;
+    box-shadow: none;
+  }
+}
+
+/* ======================
+   Header
+====================== */
+.header {
+  text-align: center;
+  padding: 28px 0 8px;
+}
+
+.site-title {
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: var(--text);
+}
+
+.site-title:hover {
+  color: var(--teal);
+}
+
+/* ======================
+   Nav
+====================== */
+.nav {
+  text-align: center;
+  padding: 4px 0 16px;
+}
+
+.nav a {
+  display: inline-block;
+  margin: 0 12px;
+  font-size: 13px;
+  color: var(--text-muted);
+  transition: color 0.15s;
+}
+
+.nav a:hover,
+.nav a.active {
+  color: var(--teal);
+}
+
+/* ======================
+   Layout: container
+====================== */
+.container {
+  display: flex;
+  gap: 0;
+  padding: 20px 24px 28px;
+  align-items: flex-start;
+}
+
+.main {
+  flex: 1;
+  min-width: 0;
+}
+
+/* ======================
+   Sidebar
+====================== */
+.sidebar {
+  width: 148px;
+  flex-shrink: 0;
+  padding-right: 20px;
+}
+
+.sidebar h3 {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin: 0 0 10px;
+}
+
+/* 手機：sidebar 變成橫向捲動的 tag 列 */
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+    padding: 16px;
+    gap: 16px;
+  }
+
+  .sidebar {
+    width: 100%;
+    padding-right: 0;
+  }
+
+  .sidebar h3 {
+    margin-bottom: 8px;
+  }
+
+  .tags {
+    flex-direction: row !important;
+    flex-wrap: wrap;
+  }
+}
+
+/* ======================
+   Tags
+====================== */
+.tags {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.tag {
+  display: inline-block;
+  padding: 3px 10px;
+  font-size: 12px;
+  border-radius: 999px;
+  border: 1px solid transparent;
+  background: var(--teal-light);
+  color: #4f6f6e;
+  transition: background 0.15s, color 0.15s;
+  cursor: pointer;
+}
+
+@media (prefers-color-scheme: dark) {
+  .tag {
+    color: var(--teal);
+  }
+}
+
+.tag:hover {
+  background: var(--teal-mid);
+  color: #fff;
+}
+
+.tag.active {
+  background: var(--teal-solid);
+  color: #fff;
+  border-color: var(--teal);
+}
+
+/* ======================
+   Gallery (list page)
+====================== */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 96px);
+  gap: 8px;
+  padding: 8px 0;
+}
+
+.gallery-item {
+  width: 96px;
+  height: 96px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  border-radius: 8px;
+  transition: background 0.15s;
+  position: relative;
+}
+
+.gallery-item:hover {
+  background: var(--teal-light);
+}
+
+.gallery-item img {
+  width: 32px;
+  height: 32px;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  transition: transform 0.15s;
+  flex-shrink: 0;
+}
+
+.gallery-item:hover img {
+  transform: scale(2);
+}
+
+.gallery-label {
+  font-size: 11px;
+  color: var(--text-muted);
+  text-align: center;
+  margin-top: 8px;
+  line-height: 1.2;
+}
+
+/* ======================
+   Post (single page)
+====================== */
+.post {
+  max-width: 600px;
+}
+
+.post h2 {
+  font-size: 20px;
+  margin: 0 0 16px;
+}
+
+.post-icon {
+  display: block;
+  width: 64px;
+  height: 64px;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  margin-bottom: 16px;
+}
+
+.post-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 16px;
+}
+
+.post-content {
+  color: var(--text);
+  line-height: 1.8;
+}
+
+.post-content p {
+  margin: 0 0 12px;
+}
+
+/* ======================
+   Back link
+====================== */
+.back-link {
+  display: inline-block;
+  margin-top: 24px;
+  padding: 6px 14px;
+  font-size: 13px;
+  border-radius: 999px;
+  background: var(--teal-light);
+  color: #4f6f6e;
+  transition: background 0.15s, color 0.15s;
+}
+
+@media (prefers-color-scheme: dark) {
+  .back-link {
+    color: var(--teal);
+  }
+}
+
+.back-link:hover {
+  background: var(--teal-mid);
+  color: #fff;
+}
+
+/* ======================
+   Footer
+====================== */
+.footer {
+  text-align: center;
+  padding: 16px;
+  font-size: 12px;
+  color: var(--text-muted);
+  border-top: 1px solid var(--border);
+}

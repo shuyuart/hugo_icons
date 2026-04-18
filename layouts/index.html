@@ -1,0 +1,20 @@
+{{ define "main" }}
+<section class="gallery">
+  {{- range (where site.RegularPages "Section" "posts") }}
+  {{- $img := .Params.image }}
+  <a href="{{ .RelPermalink }}"
+     class="gallery-item"
+     data-tags="{{ delimit .Params.tags " " }}"
+     title="{{ .Title }}">
+    <img
+      src="{{ $img }}"
+      alt="{{ .Title }}"
+      width="32"
+      height="32"
+      loading="lazy"
+    >
+    <span class="gallery-label">{{ .Title }}</span>
+  </a>
+  {{- end }}
+</section>
+{{ end }}

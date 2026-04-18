@@ -1,0 +1,5 @@
+baseURL = 'https://icons.shuyuart.com/'
+languageCode = 'zh-TW'
+title = 'Pixel Icons by Shuyu'
+[permalinks]
+  pages = "/:slug/"

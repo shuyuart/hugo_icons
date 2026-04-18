@@ -1,0 +1,32 @@
+{{ define "main" }}
+<article class="post">
+
+  <h2>{{ .Title }}</h2>
+
+  {{- $img := .Params.image }}
+  {{- if $img }}
+  <img
+    src="{{ $img }}"
+    alt="{{ .Title }}"
+    class="post-icon"
+  >
+  {{- end }}
+
+  {{- if .Params.tags }}
+  <div class="post-tags">
+    {{- range .Params.tags }}
+    <a href="{{ "/" | relURL }}?tag={{ . | urlize }}" class="tag">{{ . }}</a>
+    {{- end }}
+  </div>
+  {{- end }}
+
+  {{- if .Content }}
+  <div class="post-content">
+    {{ .Content }}
+  </div>
+  {{- end }}
+
+  <a href="{{ "/" | relURL }}" class="back-link">← 回首頁</a>
+
+</article>
+{{ end }}

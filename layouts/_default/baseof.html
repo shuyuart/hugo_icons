@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ if .IsHome }}Pixel Art Icons{{ else }}{{ .Title }} — Pixel Art Icons{{ end }}</title>
+
+  {{- $style := resources.Get "css/style.css" | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+</head>
+
+<body>
+  <div class="page">
+
+    {{ partial "header.html" . }}
+    {{ partial "nav.html" . }}
+
+    <div class="container">
+      {{ partial "sidebar.html" . }}
+      <main class="main">
+        {{ block "main" . }}{{ end }}
+      </main>
+    </div>
+
+    {{ partial "footer.html" . }}
+
+  </div>
+</body>
+</html>

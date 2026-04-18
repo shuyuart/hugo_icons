@@ -1,0 +1,7 @@
+{{ define "main" }}
+<section class="gallery">
+  {{- range .Pages }}
+  <a href="{{ .RelPermalink }}" class="tag">{{ .Title }}</a>
+  {{- end }}
+</section>
+{{ end }}
