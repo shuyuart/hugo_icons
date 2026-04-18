@@ -1,0 +1,12 @@
+# Hugo 預設產生的資料夾
+public/
+resources/
+hugo_stats.json
+
+# 作業系統產生的雜物
+.DS_Store
+Thumbs.db
+
+# 編輯器的設定檔（選配）
+.vscode/
+.idea/
