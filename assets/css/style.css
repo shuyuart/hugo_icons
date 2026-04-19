@@ -273,7 +273,7 @@ a {
 /* 手機：改為 3 欄等寬排列 */
 @media (max-width: 600px) {
   .gallery {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(5, 1fr);
   }
 
   .gallery-item {
