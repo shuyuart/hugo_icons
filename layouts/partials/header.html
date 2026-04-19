@@ -1,7 +1,9 @@
-<header>
-    <h1><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
-    
-    {{ with .Site.Params.subtitle }}
-        <p class="site-subtitle">{{ . }}</p>
-    {{ end }}
+<header class="header">
+  <div class="site-title">
+    <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+  </div>
+
+  {{ with .Site.Params.subtitle }}
+    <p class="site-subtitle">{{ . }}</p>
+  {{ end }}
 </header>
