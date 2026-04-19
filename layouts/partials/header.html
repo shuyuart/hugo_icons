@@ -1,3 +1,7 @@
-<header class="header">
-  <a href="{{ "/" | relURL }}" class="site-title">Pixel Art Icons</a>
+<header>
+    <h1><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
+    
+    {{ with .Site.Params.subtitle }}
+        <p class="site-subtitle">{{ . }}</p>
+    {{ end }}
 </header>
