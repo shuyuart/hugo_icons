@@ -2,11 +2,11 @@
    Variables (Light)
 ====================== */
 :root {
-  --teal:        #8aaead;
-  --teal-light:  rgba(138, 174, 173, 0.15);
-  --teal-mid:    rgba(138, 174, 173, 0.45);
-  --teal-solid:  rgba(138, 174, 173, 0.85);
-  --bg-outer:    #a8c9c6;
+  --teal:        #466fce;
+  --teal-light:  rgba(70, 111, 206, 0.10);
+  --teal-mid:    rgba(70, 111, 206, 0.40);
+  --teal-solid:  rgba(70, 111, 206, 0.90);
+  --bg-outer:    #b8c8e8;
   --bg-page:     #f7f7f7;
   --text:        #333;
   --text-muted:  #666;
@@ -20,14 +20,14 @@
 ====================== */
 @media (prefers-color-scheme: dark) {
   :root {
-    --teal:        #8aaead;
-    --teal-light:  rgba(138, 174, 173, 0.12);
-    --teal-mid:    rgba(138, 174, 173, 0.40);
-    --teal-solid:  rgba(138, 174, 173, 0.80);
-    --bg-outer:    #1e2e2d;
-    --bg-page:     #252f2f;
+    --teal:        #7096d8;
+    --teal-light:  rgba(70, 111, 206, 0.12);
+    --teal-mid:    rgba(70, 111, 206, 0.38);
+    --teal-solid:  rgba(70, 111, 206, 0.85);
+    --bg-outer:    #1a2035;
+    --bg-page:     #1e2840;
     --text:        #e8e8e8;
-    --text-muted:  #9ab;
+    --text-muted:  #8899bb;
     --border:      rgba(255, 255, 255, 0.06);
   }
 }
@@ -47,10 +47,11 @@ body {
   line-height: 1.6;
 
   background-color: var(--bg-outer);
-  background-image:
-    linear-gradient(rgba(255,255,255,0.08) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255,255,255,0.08) 1px, transparent 1px);
-  background-size: 16px 16px;
+/* 建議 */
+background-image:
+  linear-gradient(rgba(255,255,255,0.15) 1.5px, transparent 1.5px),
+  linear-gradient(90deg, rgba(255,255,255,0.15) 1.5px, transparent 1.5px);
+background-size: 16px 16px;
 
   min-height: 100vh;
   padding: 32px 16px;
@@ -86,26 +87,52 @@ a {
     box-shadow: none;
   }
 }
-
 /* ======================
-   Header
+   Header — 三段式標題
 ====================== */
 .header {
   text-align: center;
-  padding: 28px 0 8px;
+  padding: 32px 0 8px;
 }
 
-.site-title {
-  font-size: 22px;
-  font-weight: 700;
-  letter-spacing: 0.04em;
+.site-title a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  text-decoration: none;
   color: var(--text);
 }
 
-.site-title:hover {
+.site-title a:hover {
   color: var(--teal);
 }
 
+.brand-name {
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.main-title {
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text);
+  line-height: 1.1;
+}
+
+.site-subtitle {
+  margin: 6px 0 0;
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--text-muted);
+  letter-spacing: 0.04em;
+  font-style: italic;
+}
 /* ======================
    Nav
 ====================== */
@@ -200,7 +227,7 @@ a {
   border-radius: 999px;
   border: 1px solid transparent;
   background: var(--teal-light);
-  color: #4f6f6e;
+  color: #1b3d80;
   transition: background 0.15s, color 0.15s;
   cursor: pointer;
 }
@@ -270,17 +297,6 @@ a {
   line-height: 1.2;
 }
 
-/* 手機：改為 3 欄等寬排列 */
-@media (max-width: 600px) {
-  .gallery {
-    grid-template-columns: repeat(5, 1fr);
-  }
-
-  .gallery-item {
-    width: 100%;
-  }
-}
-
 /* ======================
    Post (single page)
 ====================== */
@@ -328,7 +344,7 @@ a {
   font-size: 13px;
   border-radius: 999px;
   background: var(--teal-light);
-  color: #4f6f6e;
+  color: #1b3d80;
   transition: background 0.15s, color 0.15s;
 }
 
@@ -352,4 +368,28 @@ a {
   font-size: 12px;
   color: var(--text-muted);
   border-top: 1px solid var(--border);
+}
+
+.footer-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.footer-logos a {
+  display: inline-flex;
+  opacity: 0.85;
+  transition: opacity 0.2s;
+}
+
+.footer-logos a:hover {
+  opacity: 1;
+}
+
+.footer-logos img {
+  display: block;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
 }

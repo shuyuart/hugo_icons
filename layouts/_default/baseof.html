@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ if .IsHome }}Pixel Art Icons{{ else }}{{ .Title }} — Pixel Art Icons{{ end }}</title>
+  <title>{{ if .IsHome }}{{ site.Params.mainTitle }}{{ else }}{{ .Title }} — {{ site.Params.mainTitle }}{{ end }}</title>
 
   {{- $style := resources.Get "css/style.css" | minify | fingerprint }}
   <link rel="stylesheet" href="{{ $style.RelPermalink }}">

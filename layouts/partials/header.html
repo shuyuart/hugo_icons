@@ -1,6 +1,15 @@
 <header class="header">
   <div class="site-title">
-    <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+    <a href="{{ .Site.BaseURL }}">
+      {{ if .Site.Params.brandName }}
+        <span class="brand-name">{{ .Site.Params.brandName }}</span>
+      {{ end }}
+      
+      {{ if .Site.Params.mainTitle }}
+        <span class="main-title">{{ .Site.Params.mainTitle }}</span>
+      {{ else }}
+        {{ .Site.Title }} {{ end }}
+    </a>
   </div>
 
   {{ with .Site.Params.subtitle }}
