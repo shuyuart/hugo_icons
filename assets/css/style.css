@@ -193,44 +193,37 @@ a {
     padding: 16px;
     gap: 16px;
   }
-
   .sidebar {
     width: 100%;
     padding-right: 0;
   }
-
   .sidebar h3 {
     margin-bottom: 8px;
   }
-
   .tags {
     flex-direction: row !important;
     flex-wrap: wrap;
   }
 
-@media (max-width: 600px) {
-  /* ... 原有的 container 和 sidebar 設定保持不變 ... */
-
   .gallery {
-    /* 強制改為 5 欄 */
-    grid-template-columns: repeat(5, 1fr) !important; 
-    gap: 6px;
-    justify-items: center;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 4px;        /* ← 從 8px 縮到 4px */
   }
 
   .gallery-item {
-    /* 關鍵：必須取消固定寬度，否則會撐破網格 */
-    width: auto; 
-    height: 80px;
-    /* 確保縮放時圖片和文字不會擠在一起 */
+    width: auto;     /* ← 取消固定 96px */
+    height: 72px;    /* ← 從 96px 縮小 */
     padding: 4px;
   }
-  
+
   .gallery-item img {
-    /* 調整手機版縮放比例，避免 hover 時太大擋住隔壁 */
-    max-width: 100%;
+    width: 28px;     /* ← 從 32px 略縮 */
+    height: 28px;
   }
-}
+
+  .gallery-label {
+    font-size: 10px; /* ← 文字再小一點 */
+  }
 }
 
 /* ======================
