@@ -45,22 +45,13 @@ body {
   font-size: 14px;
   color: var(--text);
   line-height: 1.6;
-
   background-color: var(--bg-outer);
-/* 建議 */
   background-image:
-  linear-gradient(rgba(255,255,255,0.15) 1.5px, transparent 1.5px),
-  linear-gradient(90deg, rgba(255,255,255,0.15) 1.5px, transparent 1.5px);
-background-size: 16px 16px;
-
+    linear-gradient(rgba(255,255,255,0.15) 1.5px, transparent 1.5px),
+    linear-gradient(90deg, rgba(255,255,255,0.15) 1.5px, transparent 1.5px);
+  background-size: 16px 16px;
   min-height: 100vh;
   padding: 32px 16px;
-}
-
-@media (max-width: 600px) {
-  body {
-    padding: 0;
-  }
 }
 
 a {
@@ -81,12 +72,6 @@ a {
   box-shadow: 0 4px 24px rgba(0,0,0,0.12);
 }
 
-@media (max-width: 600px) {
-  .page {
-    border-radius: 0;
-    box-shadow: none;
-  }
-}
 /* ======================
    Header — 三段式標題
 ====================== */
@@ -133,6 +118,7 @@ a {
   letter-spacing: 0.04em;
   font-style: italic;
 }
+
 /* ======================
    Nav
 ====================== */
@@ -187,45 +173,6 @@ a {
   margin: 0 0 10px;
 }
 
-@media (max-width: 600px) {
-  .container {
-    flex-direction: column;
-    padding: 16px;
-    gap: 16px;
-  }
-  .sidebar {
-    width: 100%;
-    padding-right: 0;
-  }
-  .sidebar h3 {
-    margin-bottom: 8px;
-  }
-  .tags {
-    flex-direction: row !important;
-    flex-wrap: wrap;
-  }
-
-  .gallery {
-    grid-template-columns: repeat(5, 1fr);
-    gap: 4px;        /* ← 從 8px 縮到 4px */
-  }
-
-  .gallery-item {
-    width: auto;     /* ← 取消固定 96px */
-    height: 72px;    /* ← 從 96px 縮小 */
-    padding: 4px;
-  }
-
-  .gallery-item img {
-    width: 28px;     /* ← 從 32px 略縮 */
-    height: 28px;
-  }
-
-  .gallery-label {
-    font-size: 10px; /* ← 文字再小一點 */
-  }
-}
-
 /* ======================
    Tags
 ====================== */
@@ -246,12 +193,6 @@ a {
   color: #1b3d80;
   transition: background 0.15s, color 0.15s;
   cursor: pointer;
-}
-
-@media (prefers-color-scheme: dark) {
-  .tag {
-    color: var(--teal);
-  }
 }
 
 .tag:hover {
@@ -364,12 +305,6 @@ a {
   transition: background 0.15s, color 0.15s;
 }
 
-@media (prefers-color-scheme: dark) {
-  .back-link {
-    color: var(--teal);
-  }
-}
-
 .back-link:hover {
   background: var(--teal-mid);
   color: #fff;
@@ -408,4 +343,70 @@ a {
   display: block;
   image-rendering: pixelated;
   image-rendering: crisp-edges;
+}
+
+/* ======================
+   Media Queries
+====================== */
+
+/* dark mode 的 tag / back-link 顏色 */
+@media (prefers-color-scheme: dark) {
+  .tag {
+    color: var(--teal);
+  }
+  .back-link {
+    color: var(--teal);
+  }
+}
+
+/* 手機版 */
+@media (max-width: 600px) {
+  body {
+    padding: 0;
+  }
+
+  .page {
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .container {
+    flex-direction: column;
+    padding: 16px;
+    gap: 16px;
+  }
+
+  .sidebar {
+    width: 100%;
+    padding-right: 0;
+  }
+
+  .sidebar h3 {
+    margin-bottom: 8px;
+  }
+
+  .tags {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(5, 1fr);
+    gap: 4px;
+  }
+
+  .gallery-item {
+    width: auto;
+    height: 72px;
+    padding: 4px;
+  }
+
+  .gallery-item img {
+    width: 28px;
+    height: 28px;
+  }
+
+  .gallery-label {
+    font-size: 10px;
+  }
 }
