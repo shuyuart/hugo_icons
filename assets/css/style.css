@@ -208,16 +208,29 @@ a {
     flex-wrap: wrap;
   }
 
+@media (max-width: 600px) {
+  /* ... 原有的 container 和 sidebar 設定保持不變 ... */
+
   .gallery {
-    grid-template-columns: repeat(5, 1fr);
+    /* 強制改為 5 欄 */
+    grid-template-columns: repeat(5, 1fr) !important; 
     gap: 6px;
     justify-items: center;
   }
 
   .gallery-item {
-    width: 100%;
+    /* 關鍵：必須取消固定寬度，否則會撐破網格 */
+    width: auto; 
     height: 80px;
+    /* 確保縮放時圖片和文字不會擠在一起 */
+    padding: 4px;
   }
+  
+  .gallery-item img {
+    /* 調整手機版縮放比例，避免 hover 時太大擋住隔壁 */
+    max-width: 100%;
+  }
+}
 }
 
 /* ======================
