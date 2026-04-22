@@ -48,7 +48,7 @@ body {
 
   background-color: var(--bg-outer);
 /* 建議 */
-background-image:
+  background-image:
   linear-gradient(rgba(255,255,255,0.15) 1.5px, transparent 1.5px),
   linear-gradient(90deg, rgba(255,255,255,0.15) 1.5px, transparent 1.5px);
 background-size: 16px 16px;
@@ -187,7 +187,6 @@ a {
   margin: 0 0 10px;
 }
 
-/* 手機：sidebar 變成橫向捲動的 tag 列 */
 @media (max-width: 600px) {
   .container {
     flex-direction: column;
@@ -219,16 +218,6 @@ a {
     width: 100%;
     height: 80px;
   }
-/* 手機：改為 5 欄等寬排列 */
-@media (max-width: 600px) {
-  .gallery {
-    grid-template-columns: repeat(5, 1fr);
-  }
-
-  .gallery-item {
-    width: 100%;
-  }
-}
 }
 
 /* ======================
