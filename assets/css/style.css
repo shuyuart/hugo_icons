@@ -159,7 +159,7 @@ a {
    Sidebar
 ====================== */
 .sidebar {
-  width: 148px;
+  width: 168px;
   flex-shrink: 0;
   padding-right: 20px;
 }
@@ -289,6 +289,69 @@ a {
 
 .post-content p {
   margin: 0 0 12px;
+}
+
+
+/* ======================
+   Download buttons
+====================== */
+:root {
+  --orange:       #c97d4e;
+  --orange-light: rgba(201, 125, 78, 0.12);
+  --orange-mid:   rgba(201, 125, 78, 0.40);
+  --orange-solid: rgba(201, 125, 78, 0.85);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --orange:       #d4926a;
+    --orange-light: rgba(201, 125, 78, 0.12);
+    --orange-mid:   rgba(201, 125, 78, 0.35);
+    --orange-solid: rgba(201, 125, 78, 0.80);
+  }
+}
+
+.download-section {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 16px 0;
+}
+
+.download-group {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.download-label {
+  font-size: 13px;
+  color: var(--text-muted);
+  min-width: 4.5em;
+}
+
+.download-row {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.btn-download {
+  display: inline-block;
+  padding: 3px 12px;
+  font-size: 12px;
+  border-radius: 999px;
+  background: var(--orange-light);
+  color: var(--orange);
+  border: 1px solid var(--orange-mid);
+  transition: background 0.15s, color 0.15s;
+  cursor: pointer;
+}
+
+.btn-download:hover {
+  background: var(--orange-mid);
+  color: #fff;
 }
 
 /* ======================
