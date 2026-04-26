@@ -1,10 +1,10 @@
-{{- $pages := .Pages -}}
+{{- $pages := where site.RegularPages "Section" "posts" -}}
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ .Site.Title }}</title>
-    <link>{{ .Site.BaseURL }}</link>
-    <description>{{ .Site.Params.description }}</description>
+    <title>{{ site.Title }}</title>
+    <link>{{ site.BaseURL }}</link>
+    <description>{{ site.Title }}</description>
     <atom:link href="{{ "index.xml" | absURL }}" rel="self" type="application/rss+xml" />
     {{ range $pages }}
     <item>
