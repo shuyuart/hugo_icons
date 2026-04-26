@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "關於"
 slug: about
 draft: false
 ---

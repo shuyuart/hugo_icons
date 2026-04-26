@@ -5,7 +5,8 @@ tags: ["休閒娛樂","電子電器"]
 image: "/icons/movieprojector/movieprojector16_bk.png"
 ---
 
-一臺復古電影放映機，透過齒輪帶動膠捲轉動，讓光線穿過底片，將畫面放大投射出來。
+一臺復古電影放映機。<br>
+透過齒輪帶動膠捲轉動，讓光線穿過底片，將畫面放大投射出來。
 
 <div class="download-group">
   <img src="/icons/movieprojector/movieprojector16_bk32.png" alt="movieprojector16_bk">

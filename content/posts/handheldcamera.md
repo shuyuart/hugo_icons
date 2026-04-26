@@ -5,7 +5,7 @@ tags: ["休閒娛樂","電子電器"]
 image: "/icons/handheldcamera/handheldcamera16_bk.png"
 ---
 
-輕巧的手持錄影機，捕捉一閃而逝的畫面。
+輕巧的手持錄影機，捕捉一閃而逝的瞬間。
 
 <div class="download-group">
   <img src="/icons/handheldcamera/handheldcamera16_bk32.png" alt="handheldcamera16_bk">

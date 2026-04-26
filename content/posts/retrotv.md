@@ -5,7 +5,7 @@ tags: ["休閒娛樂","電子電器"]
 image: "/icons/retrotv/retrotv16_bk.png"
 ---
 
-透過電子槍發射電子束撞擊螢光層顯影，有點笨重的 CRT 電視。有著顯像管特有的溫潤色調。
+透過電子槍發射電子束撞擊螢光層顯影，有點笨重的 CRT 電視。<br>畫面有著顯像管特有的溫潤色調。
 
 <div class="download-group">
   <img src="/icons/retrotv/retrotv16_bk32.png" alt="retrotv16_bk">

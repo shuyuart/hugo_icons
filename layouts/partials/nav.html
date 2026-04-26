@@ -1,4 +1,5 @@
 <nav class="nav">
-  <a href="{{ "/" | relURL }}"{{ if .IsHome }} class="active"{{ end }}>Home</a>
-  <a href="{{ "/about" | relURL }}"{{ if eq .RelPermalink "/about/" }} class="active"{{ end }}>About</a>
+  <a href="{{ "/" | relURL }}"{{ if .IsHome }} class="active"{{ end }}>首頁</a>
+  <a href="{{ "/usage" | relURL }}"{{ if eq .RelPermalink "/usage/" }} class="active"{{ end }}>使用說明</a>
+  <a href="{{ "/about" | relURL }}"{{ if eq .RelPermalink "/about/" }} class="active"{{ end }}>關於</a>
 </nav>
