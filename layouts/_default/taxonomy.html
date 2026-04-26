@@ -1,6 +1,6 @@
 {{ define "main" }}
 <section class="gallery">
-  {{- range .Pages }}
+  {{- range .Pages.ByTitle }}
   <a href="{{ .RelPermalink }}" class="tag">{{ .Title }}</a>
   {{- end }}
 </section>
