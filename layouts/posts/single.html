@@ -1,8 +1,6 @@
 {{ define "main" }}
 <article class="post">
-
   <h2>{{ .Title }}</h2>
-
   {{- $img := .Params.image }}
   {{- if $img }}
   <img
@@ -11,7 +9,6 @@
     class="post-icon"
   >
   {{- end }}
-
   {{- if .Params.tags }}
   <div class="post-tags">
     {{- range .Params.tags }}
@@ -19,14 +16,31 @@
     {{- end }}
   </div>
   {{- end }}
-
   {{- if .Content }}
   <div class="post-content">
     {{ .Content }}
   </div>
   {{- end }}
-
   <a href="{{ "/" | relURL }}" class="back-link">← 回首頁</a>
-
 </article>
+
+<script>
+document.querySelectorAll('.btn-download').forEach(btn => {
+  btn.addEventListener('click', async (e) => {
+    e.preventDefault();
+    const url = btn.href;
+    try {
+      const blob = await fetch(url).then(r => r.blob());
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      a.download = url.split('/').pop();
+      a.click();
+      URL.revokeObjectURL(a.href);
+    } catch (err) {
+      console.error('下載失敗：', err);
+      window.open(url, '_blank');
+    }
+  });
+});
+</script>
 {{ end }}
