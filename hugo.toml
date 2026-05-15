@@ -1,5 +1,5 @@
 baseURL = 'https://icons.shuyuart.com/'
-languageCode = 'zh-TW'
+locale = "zh-TW"
 title = "Shuyu's Pixel Art Icons"
 [params]
     brandName = "SHUYU'S"

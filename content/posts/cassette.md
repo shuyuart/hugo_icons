@@ -5,7 +5,7 @@ tags: ["休閒娛樂","音樂"]
 image: "https://img.shuyuart.com/icons/cassette/cassette16_bk.png"
 ---
 
-過去用於儲存聲音信號的磁帶。
+過去用於儲存聲音訊號的磁帶。
 
 <div class="download-group">
   <img src="https://img.shuyuart.com/icons/cassette/cassette16_bk32.png" alt="卡式錄音帶 像素圖示（黑框版）">

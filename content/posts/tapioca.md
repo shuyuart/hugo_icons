@@ -9,7 +9,7 @@ draft: false
 奶茶加上充滿嚼勁的粉圓，台灣人的靈魂飲料。
 
 <div class="download-group">
-  <img src="https://img.shuyuart.com/icons//tapioca/tapioca16_bk32.png" alt="珍珠奶茶 像素圖示（黑框版）">
+  <img src="https://img.shuyuart.com/icons/tapioca/tapioca16_bk32.png" alt="珍珠奶茶 像素圖示（黑框版）">
   <span class="download-label">下載黑框</span>
   <div class="download-row">
     <a href="https://img.shuyuart.com/icons/tapioca/tapioca16_bk.png" download class="btn-download">16x16</a>
