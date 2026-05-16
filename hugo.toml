@@ -8,5 +8,8 @@ title = "Shuyu's Pixel Art Icons"
     description = "探索台灣風味與日常物件的像素圖庫"
 [permalinks]
   pages = "/:slug/"
+  tags = "/tags/:slug/"
 [markup.goldmark.renderer]
   unsafe = true
+[taxonomies]
+  tag = "tags"

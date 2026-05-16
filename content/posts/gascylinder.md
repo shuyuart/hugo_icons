@@ -5,7 +5,7 @@ tags: [日常生活]
 image: "https://img.shuyuart.com/icons/gascylinder/gascylinder16_bk.png"
 ---
 
-台灣街道巷弄常看到的灰色鋼製瓦琪桶，煮飯、洗澡水加熱都靠它。
+台灣街道巷弄常看到的灰色鋼製瓦斯桶，煮飯、洗澡水加熱都靠它。
 
 <div class="download-group">
   <img src="https://img.shuyuart.com/icons/gascylinder/gascylinder16_bk32.png" alt="瓦斯桶 像素圖示（黑框版）">
