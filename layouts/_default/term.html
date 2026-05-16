@@ -1,6 +1,6 @@
 {{ define "main" }}
 <section class="gallery">
-  {{- range .Pages.ByTitle }}
+  {{- range .Pages }}
   {{- $img := .Params.image }}
   <a href="{{ .RelPermalink }}"
      class="gallery-item"

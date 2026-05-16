@@ -4,7 +4,7 @@ slug: about
 draft: false
 ---
 
-### SHUYU'S PIXEL ART ICONS  
+### SHUYU'S PIXEL ART ICONS
 
 是作者 Shuyu 基於興趣所架設與維護的素材網站。
 
@@ -24,9 +24,15 @@ draft: false
       <img src="https://img.shuyuart.com/shuyupixelart_88x31.gif" alt="Shuyu Pixel Art" width="88" height="31">
     </a>
 
+### 聯絡我
+
+關於本站的建議，歡迎利用表單與我聯絡
+
+{{< letterbird >}}
 
 ---
 
-## 本站記錄
+
+## 本站紀錄
 
 2026.4.23 正式上線

@@ -1,7 +1,7 @@
 ﻿---
 title: "色鉛筆"
 date: 2026-04-23T17:20:10+08:00
-tags: ["休閒娛樂","文具"]
+tags: ["休閒娛樂"]
 image: "https://img.shuyuart.com/icons/coloredpencils/coloredpencils16_bk.png"
 ---
 

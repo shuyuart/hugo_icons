@@ -1,7 +1,7 @@
 ﻿---
 title: "烤香腸"
 date: 2026-04-23T14:41:52+08:00
-tags: []
+tags: ["食物"]
 image: "https://img.shuyuart.com/icons/grilledsausage/grilledsausage16_bk.png"
 ---
 

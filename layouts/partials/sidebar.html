@@ -3,13 +3,13 @@
   <nav class="tags">
     <a href="{{ "/" | relURL }}"
        class="tag {{ if .IsHome }}active{{ end }}">
-      All
+      All ({{ len (where site.RegularPages "Section" "posts") }})
     </a>
 
     {{- range .Site.Taxonomies.tags.Alphabetical }}
     <a href="{{ .Page.RelPermalink }}"
        class="tag {{ if eq $.RelPermalink .Page.RelPermalink }}active{{ end }}">
-      {{ .Page.Title }}
+      {{ .Page.Title }} ({{ .Count }})
     </a>
     {{- end }}
   </nav>
