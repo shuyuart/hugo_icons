@@ -41,7 +41,7 @@
 
 body {
   margin: 0;
-  font-family: "Noto Sans TC", "Noto Sans", sans-serif;
+  font-family: "Noto Sans", "Noto Sans TC", sans-serif;
   font-size: 14px;
   color: var(--text);
   line-height: 1.6;

@@ -1,7 +1,7 @@
 ﻿---
 title: "八分音符（兩個相連）"
 date: 2026-04-23T17:00:32+08:00
-tags: ["休閒娛樂","音樂"]
+tags: ["休閒娛樂"]
 image: "https://img.shuyuart.com/icons/8thnotex2/8thnotex216_bk.png"
 ---
 

@@ -1,7 +1,7 @@
 ﻿---
 title: "卡式錄音帶"
 date: 2026-04-23T17:19:47+08:00
-tags: ["休閒娛樂","音樂"]
+tags: ["休閒娛樂"]
 image: "https://img.shuyuart.com/icons/cassette/cassette16_bk.png"
 ---
 
