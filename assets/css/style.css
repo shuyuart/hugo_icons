@@ -291,6 +291,17 @@ a {
   margin: 0 0 12px;
 }
 
+.post-content a,
+.post-content a:visited {
+  color: var(--teal);
+  text-decoration: none;
+}
+
+.post-content a:hover {
+  color: var(--text);
+  text-decoration: underline;
+}
+
 /* ======================
    Download buttons
 ====================== */
@@ -353,6 +364,16 @@ a {
   color: #fff;
 }
 
+.post-content a.btn-download,
+.post-content a.btn-download:visited {
+  color: var(--orange) !important;
+}
+
+.post-content a.btn-download:hover {
+  color: #fff !important;
+  text-decoration: none;
+}
+
 /* ======================
    Back link
 ====================== */
@@ -405,6 +426,14 @@ a {
   display: block;
   image-rendering: pixelated;
   image-rendering: crisp-edges;
+}
+
+.footer a:not(.footer-logos a) {
+  color: var(--teal);
+}
+
+.footer a:not(.footer-logos a):hover {
+  color: var(--text);
 }
 
 /* ======================

@@ -6,7 +6,8 @@ draft: false
 
 ### Shuyu's Pixel Art Icons
 
-是作者 Shuyu 基於興趣所架設與維護的素材網站。
+是作者 Shuyu 基於興趣所架設與維護的素材網站，<br>
+網站原始碼存放於 <a href="https://github.com/shuyuart/hugo_icons" target="_blank" rel="noopener">GitHub</a>
 
 ---
 
