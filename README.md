@@ -1,34 +1,61 @@
 # SHUYU'S PIXEL ART ICONS
 
-這裡完整存放了本站所有的網頁原始碼與 16×16 px 的像素畫資產。
+A public archive of the SHUYU'S PIXEL ART ICONS website source code and 16×16 px pixel art icons.
 
-之所以將專案公開，是希望網址失效時，這些素材仍能夠繼續被使用。
+This repository exists as a long-term backup so the assets remain accessible even if the original website becomes unavailable.
 
-* **網站：** [https://icons.shuyuart.com](https://icons.shuyuart.com) (主要瀏覽與下載)
-* **備用網站：** `https://hugo-icons.pages.dev` (萬一主要網域失效，請走此通道)
-
----
-
-## 著作權與授權條款
-
-所有圖片之著作權均屬作者 **Shuyu** 所有。
-
-本圖庫素材**開放商業與非商業用途**，使用時請遵守以下限制與禁止事項：
-
-### 禁止事項
-1. **禁止直接轉售素材：** 禁止將素材單獨、或主要作為商品內容進行轉售（包括但不限於實體貼圖、週邊商品、T-shirt、NFT 等）。
-2. **禁止註冊商標：** 禁止將素材用於商標註冊或作為品牌識別的核心主體。
-3. **禁止二次發布：** 禁止對素材進行修改、重組後，再次以素材或圖庫的形式公開發布或轉售。
-4. **禁止惡意仿冒本站：** 本倉庫公開網頁程式碼僅供備份留存，**嚴禁**直接複製原始碼架設鏡像或仿冒圖庫網站。
-5. **禁止直接連結圖片：** 請勿直接連結本倉庫或本站的圖片網址。請務必下載後再上傳至您自己的伺服器使用。
-6. **禁止違法用途：** 禁止用於違反法律或公序良俗之用途。
-7. 其他經作者判定為不適當之使用方式。
-
-> **詳細最新規範與未盡事宜，以網站公告為準：**
-> [https://icons.shuyuart.com/usage/](https://icons.shuyuart.com/usage/)
+* **Website:** https://icons.shuyuart.com  
+* **Backup Site:** https://hugo-icons.pages.dev
 
 ---
 
-* **Framework:** Hugo
-* **Hosting:** Cloudflare Pages
-* **Image Size:** 16 × 16 px (提供 16px, 32px, 64px, 128px 下載)
+## License & Usage
+
+All artworks and pixel icons are © Shuyu.
+
+Commercial and non-commercial use is allowed, subject to the following restrictions:
+
+### Prohibited Uses
+
+1. **Do not resell the assets**  
+   You may not resell the icons as standalone products or as the primary content of a product, including but not limited to stickers, merchandise, T-shirts, NFTs, or asset packs.
+
+2. **Do not use as trademarks or branding**  
+   The assets may not be registered as trademarks or used as the core identity of a brand.
+
+3. **Do not redistribute modified asset packs**  
+   You may not modify, reorganize, or republish the assets as another icon pack, asset collection, or downloadable resource.
+
+4. **Do not mirror or impersonate the website**  
+   The website source code is provided for archival purposes only. Rehosting, cloning, or impersonating the original website is prohibited.
+
+5. **No hotlinking**  
+   Please do not directly link to images hosted on this repository or website. Download and host the files on your own server instead.
+
+6. **No illegal or harmful use**  
+   The assets may not be used for unlawful, deceptive, or harmful purposes.
+
+The author reserves the right to deny usage considered inappropriate or misleading.
+
+---
+
+## Attribution
+
+Credit is appreciated, but not required.
+
+---
+
+## Usage Guidelines
+
+For the latest rules and additional details, please refer to:
+
+https://icons.shuyuart.com/usage/
+
+---
+
+## Tech Stack
+
+* **Framework:** Hugo  
+* **Hosting:** Cloudflare Pages  
+* **Image Size:** 16×16 px  
+  (16px, 32px, 64px, and 128px versions available)
