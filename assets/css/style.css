@@ -153,6 +153,7 @@ a {
 .main {
   flex: 1;
   min-width: 0;
+  width: 100%;
 }
 
 /* ======================
@@ -448,6 +449,52 @@ a {
   .back-link {
     color: var(--teal);
   }
+}
+
+/* ======================
+   Pagination
+====================== */
+.pagination {
+  align-self: stretch;
+}
+
+.page-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 32px;
+  height: 32px;
+  padding: 0 8px;
+  font-size: 13px;
+  border-radius: 999px;
+  background: var(--teal-light);
+  color: var(--teal);
+  border: 1px solid transparent;
+  transition: background 0.15s, color 0.15s;
+}
+
+.page-btn:hover {
+  background: var(--teal-mid);
+  color: #fff;
+}
+
+.page-btn.active {
+  background: var(--teal-solid);
+  color: #fff;
+  border-color: var(--teal);
+  font-weight: 700;
+}
+
+.page-btn.disabled {
+  opacity: 0.3;
+  cursor: default;
+  pointer-events: none;
+}
+
+.page-ellipsis {
+  font-size: 13px;
+  color: var(--text-muted);
+  padding: 0 4px;
 }
 
 /* 手機版 */

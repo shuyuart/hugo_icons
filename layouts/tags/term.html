@@ -1,6 +1,8 @@
 {{ define "main" }}
+{{- $paginator := .Paginate .Pages 60 }}
+
 <section class="gallery">
-  {{- range .Pages }}
+  {{- range $paginator.Pages }}
   {{- $img := .Params.image }}
   <a href="{{ .RelPermalink }}"
      class="gallery-item"
@@ -16,4 +18,40 @@
   </a>
   {{- end }}
 </section>
+
+{{- if gt $paginator.TotalPages 1 }}
+<nav class="pagination">
+  {{- if $paginator.HasPrev }}
+  <a href="{{ $paginator.Prev.URL }}" class="page-btn">←</a>
+  {{- else }}
+  <span class="page-btn disabled">←</span>
+  {{- end }}
+
+  {{- $cur := $paginator.PageNumber }}
+  {{- $total := $paginator.TotalPages }}
+
+  {{- range $paginator.Pagers }}
+    {{- $p := .PageNumber }}
+    {{- if or
+      (le $p 2)
+      (ge $p (sub $total 1))
+      (and (ge $p (sub $cur 1)) (le $p (add $cur 1)))
+    }}
+      {{- if eq $p $cur }}
+      <span class="page-btn active">{{ $p }}</span>
+      {{- else }}
+      <a href="{{ .URL }}" class="page-btn">{{ $p }}</a>
+      {{- end }}
+    {{- else if or (eq $p 3) (eq $p (sub $total 2)) }}
+      <span class="page-ellipsis">…</span>
+    {{- end }}
+  {{- end }}
+
+  {{- if $paginator.HasNext }}
+  <a href="{{ $paginator.Next.URL }}" class="page-btn">→</a>
+  {{- else }}
+  <span class="page-btn disabled">→</span>
+  {{- end }}
+</nav>
+{{- end }}
 {{ end }}

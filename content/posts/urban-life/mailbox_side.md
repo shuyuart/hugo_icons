@@ -1,11 +1,11 @@
 ---
 title: "信箱（側面）"
-date: 2026-05-23T17:51:02+08:00
+date: 2026-05-23T17:51:12+08:00
 tags: ["城市環境"]
 image: "/icons/urban-life/mailbox_side/mailbox_side16_bk.png"
 ---
 
-一個綠色的信箱。
+一個綠色的信箱（側面）。
 
 <div class="download-group">
   <img src="/icons/urban-life/mailbox_side/mailbox_side16_bk32.png" alt="Mailbox_side 像素圖示（黑框版）">
