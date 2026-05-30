@@ -1,7 +1,8 @@
-﻿---
+---
 title: "茄芷袋"
 date: 2026-04-23T14:43:18+08:00
-tags: [日常生活]
+categories: ["日常生活"]
+tags: ["鞋包配件","台灣特色"]
 image: "/icons/daily-life/katsi16v2/katsi16v2_bk.png"
 ---
 

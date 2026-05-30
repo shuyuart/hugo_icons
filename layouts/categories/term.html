@@ -1,6 +1,5 @@
 {{ define "main" }}
 {{- $paginator := .Paginate .Pages 60 }}
-<h2 class="taxonomy-title">＃ {{ .Title }}</h2>
 <section class="gallery">
   {{- range $paginator.Pages }}
   {{- $img := .Params.image }}

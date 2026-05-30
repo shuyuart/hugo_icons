@@ -1,7 +1,8 @@
-﻿---
+---
 title: "電影放映機"
 date: 2026-04-23T17:20:46+08:00
-tags: ["休閒娛樂","電子電器"]
+categories: ["休閒娛樂"]
+tags: ["懷舊"]
 image: "/icons/entertainment/movieprojector/movieprojector16_bk.png"
 ---
 

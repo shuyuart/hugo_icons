@@ -1,7 +1,8 @@
 ---
 title: "浴室椅"
 date: 2026-05-15T19:20:59+08:00
-tags: ["日常生活"]
+categories: ["日常生活"]
+tags: ["衛浴用品"]
 image: "/icons/daily-life/bathstool/bathstool16_bk.png"
 ---
 

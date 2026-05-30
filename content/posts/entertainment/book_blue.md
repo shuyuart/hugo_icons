@@ -1,7 +1,8 @@
-﻿---
+---
 title: "書（藍色）"
 date: 2026-04-23T17:17:10+08:00
-tags: ["休閒娛樂"]
+categories: ["休閒娛樂"]
+tags: ["教育"]
 image: "/icons/entertainment/book_blue/book_blue16_bk.png"
 ---
 

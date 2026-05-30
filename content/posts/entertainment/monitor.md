@@ -1,7 +1,8 @@
-﻿---
+---
 title: "電腦螢幕"
 date: 2026-04-23T17:22:26+08:00
-tags: ["休閒娛樂","電子電器"]
+categories: ["電子電器"]
+tags: ["3C"]
 image: "/icons/entertainment/monitor/monitor16_bk.png"
 ---
 

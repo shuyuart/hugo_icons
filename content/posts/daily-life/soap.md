@@ -1,7 +1,8 @@
 ---
 title: "肥皂"
 date: 2026-05-15T19:20:23+08:00
-tags: ["日常生活"]
+categories: ["日常生活"]
+tags: ["衛浴用品"]
 image: "/icons/daily-life/soap/soap16_bk.png"
 ---
 

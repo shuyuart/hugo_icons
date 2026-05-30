@@ -1,7 +1,8 @@
 ---
 title: "請勿停車拒馬"
 date: 2026-05-23T17:49:36+08:00
-tags: ["城市環境"]
+categories: ["城市環境"]
+tags: ["交通","街景","台灣特色"]
 image: "/icons/urban-life/noparking/noparking16_bk.png"
 ---
 

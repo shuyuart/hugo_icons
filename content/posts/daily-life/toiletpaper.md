@@ -1,7 +1,8 @@
 ---
 title: "捲筒衛生紙"
 date: 2026-05-15T19:19:01+08:00
-tags: ["日常生活"]
+categories: ["日常生活"]
+tags: ["衛浴用品"]
 image: "/icons/daily-life/toiletpaper/toiletpaper16_bk.png"
 ---
 

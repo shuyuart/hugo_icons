@@ -1,7 +1,8 @@
 ---
 title: "鉛筆"
 date: 2026-05-23T17:52:32+08:00
-tags: ["文具五金"]
+categories: ["文具五金"]
+tags: ["文具"]
 image: "/icons/stationery-and-tools/pencil/pencil16_bk.png"
 ---
 

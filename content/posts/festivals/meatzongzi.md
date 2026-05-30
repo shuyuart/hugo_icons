@@ -1,7 +1,8 @@
 ---
 title: "肉粽"
 date: 2026-05-16T19:26:38+08:00
-tags: ["節慶習俗","食物"]
+categories: ["節慶習俗"]
+tags: ["端午節","食物"]
 image: "/icons/festivals/meatzongzi/meatzongzi16_bk.png"
 ---
 

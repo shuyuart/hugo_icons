@@ -1,7 +1,8 @@
 ---
 title: "摺疊傘"
 date: 2026-05-15T19:19:36+08:00
-tags: ["日常生活"]
+categories: ["日常生活"]
+tags: ["鞋包配件"]
 image: "/icons/daily-life/foldingumbrella/foldingumbrella16_bk.png"
 ---
 

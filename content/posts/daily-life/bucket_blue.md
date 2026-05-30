@@ -1,7 +1,8 @@
-﻿---
+---
 title: "水桶（藍色）"
 date: 2026-04-30T23:43:20+08:00
-tags: ["日常生活"]
+categories: ["日常生活"]
+tags: ["清潔用品"]
 image: "/icons/daily-life/bucket_blue/bucket_blue16_bk.png"
 ---
 

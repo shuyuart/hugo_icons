@@ -1,7 +1,8 @@
-﻿---
+---
 title: "卡式錄音帶"
 date: 2026-04-23T17:19:47+08:00
-tags: ["休閒娛樂"]
+categories: ["休閒娛樂"]
+tags: ["音樂","懷舊"]
 image: "/icons/entertainment/cassette/cassette16_bk.png"
 ---
 

@@ -1,7 +1,8 @@
-﻿---
+---
 title: "手持錄影機"
 date: 2026-04-23T17:17:42+08:00
-tags: ["休閒娛樂","電子電器"]
+categories: ["休閒娛樂"]
+tags: ["3C"]
 image: "/icons/entertainment/handheldcamera/handheldcamera16_bk.png"
 ---
 

@@ -1,7 +1,8 @@
 ---
 title: "洗髮精"
 date: 2026-05-15T19:19:58+08:00
-tags: ["日常生活"]
+categories: ["日常生活"]
+tags: ["衛浴用品"]
 image: "/icons/daily-life/shampoo/shampoo16_bk.png"
 ---
 

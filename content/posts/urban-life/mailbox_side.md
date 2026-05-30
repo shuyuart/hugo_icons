@@ -1,7 +1,8 @@
 ---
 title: "信箱（側面）"
 date: 2026-05-23T17:51:12+08:00
-tags: ["城市環境"]
+categories: ["城市環境"]
+tags: ["街景","台灣特色"]
 image: "/icons/urban-life/mailbox_side/mailbox_side16_bk.png"
 ---
 

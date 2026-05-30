@@ -1,7 +1,8 @@
 ---
 title: "橡皮擦"
 date: 2026-05-23T17:55:55+08:00
-tags: ["文具五金"]
+categories: ["文具五金"]
+tags: ["文具"]
 image: "/icons/stationery-and-tools/eraser/eraser16_bk.png"
 ---
 

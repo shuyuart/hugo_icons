@@ -1,7 +1,8 @@
 ---
 title: "信封"
 date: 2026-05-23T17:51:15+08:00
-tags: ["文具五金"]
+categories: ["文具五金"]
+tags: ["文具"]
 image: "/icons/stationery-and-tools/envelope/envelope16_bk.png"
 ---
 

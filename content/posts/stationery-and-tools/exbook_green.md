@@ -1,7 +1,8 @@
 ---
 title: "國小作業簿（綠）"
 date: 2026-05-28T18:54:15+08:00
-tags: ["文具五金"]
+categories: ["文具五金"]
+tags: ["文具","教育"]
 image: "/icons/stationery-and-tools/exbook_greenv2/exbook_green16v2_bk.png"
 ---
 

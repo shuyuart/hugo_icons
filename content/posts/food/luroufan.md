@@ -1,7 +1,8 @@
-﻿---
+---
 title: "魯肉飯"
 date: 2026-04-02T11:01:00+08:00
-tags: ["食物"]
+categories: ["食物飲料"]
+tags: ["食物","台灣特色"]
 image: "/icons/food/luroufan/luroufan16_bk.png"
 ---
 

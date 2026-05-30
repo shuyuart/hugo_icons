@@ -1,7 +1,8 @@
-﻿---
+---
 title: "雞毛撢子"
 date: 2026-04-30T23:42:16+08:00
-tags: ["日常生活"]
+categories: ["日常生活"]
+tags: ["清潔用品","台灣特色"]
 image: "/icons/daily-life/featherduster/featherduster16_bk.png"
 ---
 

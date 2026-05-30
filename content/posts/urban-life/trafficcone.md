@@ -1,7 +1,8 @@
 ---
 title: "交通錐"
 date: 2026-05-23T17:48:38+08:00
-tags: ["城市環境"]
+categories: ["城市環境"]
+tags: ["交通","街景","台灣特色"]
 image: "/icons/urban-life/trafficcone/trafficcone16_bk.png"
 ---
 

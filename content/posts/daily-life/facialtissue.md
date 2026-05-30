@@ -1,7 +1,8 @@
 ---
 title: "抽取式衛生紙"
 date: 2026-05-15T19:17:33+08:00
-tags: ["日常生活"]
+categories: ["日常生活"]
+tags: ["衛浴用品"]
 image: "/icons/daily-life/facialtissue/facialtissue16_bk.png"
 ---
 

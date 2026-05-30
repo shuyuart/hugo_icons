@@ -1,7 +1,8 @@
-﻿---
+---
 title: "椰子掃把"
 date: 2026-04-30T23:41:30+08:00
-tags: ["日常生活"]
+categories: ["日常生活"]
+tags: ["清潔用品","台灣特色"]
 image: "/icons/daily-life/coconutbroom/coconutbroom16_bk.png"
 ---
 

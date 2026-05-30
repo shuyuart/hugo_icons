@@ -1,7 +1,8 @@
 ---
 title: "消波塊"
 date: 2026-05-16T19:27:33+08:00
-tags: ["城市環境"]
+categories: ["城市環境"]
+tags: ["戶外景觀","台灣特色"]
 image: "/icons/urban-life/tetrapod/tetrapod16_bk.png"
 ---
 

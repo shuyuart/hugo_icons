@@ -1,7 +1,8 @@
-﻿---
+---
 title: "紅白塑膠袋"
 date: 2026-04-23T14:43:10+08:00
-tags: ["日常生活"]
+categories: ["日常生活"]
+tags: ["台灣特色"]
 image: "/icons/daily-life/stripedplasticbag/stripedplasticbag16_bk.png"
 ---
 

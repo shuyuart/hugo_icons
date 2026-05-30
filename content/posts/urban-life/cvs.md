@@ -1,7 +1,8 @@
 ---
 title: "便利商店"
 date: 2026-05-23T17:50:02+08:00
-tags: ["城市環境"]
+categories: ["城市環境"]
+tags: ["建築","街景"]
 image: "/icons/urban-life/cvs/cvs16_bk.png"
 ---
 

@@ -1,7 +1,8 @@
 ---
 title: "吹風機"
 date: 2026-05-15T19:19:47+08:00
-tags: ["日常生活"]
+categories: ["電子電器"]
+tags: ["家電"]
 image: "/icons/daily-life/hairdryer/hairdryer16_bk.png"
 ---
 

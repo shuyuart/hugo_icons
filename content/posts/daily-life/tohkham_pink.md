@@ -1,7 +1,8 @@
 ---
 title: "桌崁（粉色）"
 date: 2026-05-28T18:55:54+08:00
-tags: ["日常生活"]
+categories: ["日常生活"]
+tags: ["台灣特色","懷舊"]
 image: "/icons/daily-life/tohkham_pink/tohkham_pink16_bk.png"
 ---
 

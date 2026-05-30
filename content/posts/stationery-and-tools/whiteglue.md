@@ -1,7 +1,8 @@
 ---
 title: "白膠"
 date: 2026-05-23T17:51:31+08:00
-tags: ["文具五金"]
+categories: ["文具五金"]
+tags: ["文具"]
 image: "/icons/stationery-and-tools/whiteglue/whiteglue16_bk.png"
 ---
 

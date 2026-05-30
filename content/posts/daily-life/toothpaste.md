@@ -1,7 +1,8 @@
 ---
 title: "牙膏"
 date: 2026-05-15T19:20:46+08:00
-tags: ["日常生活"]
+categories: ["日常生活"]
+tags: ["衛浴用品"]
 image: "/icons/daily-life/toothpaste/toothpaste16_bk.png"
 ---
 

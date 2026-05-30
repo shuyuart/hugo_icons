@@ -1,7 +1,8 @@
 ---
 title: "信箱"
 date: 2026-05-23T17:51:07+08:00
-tags: ["城市環境"]
+categories: ["城市環境"]
+tags: ["街景","台灣特色"]
 image: "/icons/urban-life/mailbox/mailbox16_bk.png"
 ---
 

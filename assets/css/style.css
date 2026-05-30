@@ -13,6 +13,10 @@
   --border:      rgba(0, 0, 0, 0.05);
   --page-width:  896px;
   --radius:      10px;
+  --orange:       #c97d4e;
+  --orange-light: rgba(201, 125, 78, 0.12);
+  --orange-mid:   rgba(201, 125, 78, 0.40);
+  --orange-solid: rgba(201, 125, 78, 0.85);
 }
 
 /* ======================
@@ -29,6 +33,10 @@
     --text:        #e8e8e8;
     --text-muted:  #8899bb;
     --border:      rgba(255, 255, 255, 0.06);
+    --orange:       #d4926a;
+    --orange-light: rgba(201, 125, 78, 0.12);
+    --orange-mid:   rgba(201, 125, 78, 0.35);
+    --orange-solid: rgba(201, 125, 78, 0.80);
   }
 }
 
@@ -73,7 +81,7 @@ a {
 }
 
 /* ======================
-   Header — 三段式標題
+   Header
 ====================== */
 .header {
   text-align: center;
@@ -141,7 +149,7 @@ a {
 }
 
 /* ======================
-   Layout: container
+   Layout
 ====================== */
 .container {
   display: flex;
@@ -175,13 +183,56 @@ a {
 }
 
 /* ======================
-   Tags
+   Tags (collapsible block)
+====================== */
+.tags-mobile {
+  margin-bottom: 16px;
+}
+
+.tags-mobile > summary {
+  list-style: none;
+  cursor: pointer;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+
+.tags-mobile > summary::-webkit-details-marker {
+  display: none;
+}
+
+.tags-mobile > summary h3 {
+  display: inline;
+  margin: 0;
+}
+
+.tags-mobile > summary::after {
+  content: "▶";
+  font-size: 16px;
+  color: var(--teal);
+  transition: transform 0.2s;
+}
+
+.tags-mobile[open] > summary::after {
+  transform: rotate(90deg);
+}
+
+.tags-scrollable {
+  max-height: 600px;
+  overflow-y: auto;
+}
+
+/* ======================
+   Tags (pill list)
 ====================== */
 .tags {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 4px;
+  margin-bottom: 16px;
 }
 
 .tag {
@@ -207,8 +258,24 @@ a {
   border-color: var(--teal);
 }
 
+@media (prefers-color-scheme: dark) {
+  .tag {
+    color: var(--teal);
+  }
+}
+
 /* ======================
-   Gallery (list page)
+   Taxonomy title
+====================== */
+.taxonomy-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text-muted);
+  margin: 0 0 16px;
+}
+
+/* ======================
+   Gallery
 ====================== */
 .gallery {
   display: grid;
@@ -306,22 +373,6 @@ a {
 /* ======================
    Download buttons
 ====================== */
-:root {
-  --orange:       #c97d4e;
-  --orange-light: rgba(201, 125, 78, 0.12);
-  --orange-mid:   rgba(201, 125, 78, 0.40);
-  --orange-solid: rgba(201, 125, 78, 0.85);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --orange:       #d4926a;
-    --orange-light: rgba(201, 125, 78, 0.12);
-    --orange-mid:   rgba(201, 125, 78, 0.35);
-    --orange-solid: rgba(201, 125, 78, 0.80);
-  }
-}
-
 .download-section {
   display: flex;
   flex-direction: column;
@@ -394,58 +445,7 @@ a {
   color: #fff;
 }
 
-/* ======================
-   Footer
-====================== */
-.footer {
-  text-align: center;
-  padding: 16px;
-  font-size: 12px;
-  color: var(--text-muted);
-  border-top: 1px solid var(--border);
-}
-
-.footer-logos {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  margin-bottom: 10px;
-}
-
-.footer-logos a {
-  display: inline-flex;
-  opacity: 0.85;
-  transition: opacity 0.2s;
-}
-
-.footer-logos a:hover {
-  opacity: 1;
-}
-
-.footer-logos img {
-  display: block;
-  image-rendering: pixelated;
-  image-rendering: crisp-edges;
-}
-
-.footer a:not(.footer-logos a) {
-  color: var(--teal);
-}
-
-.footer a:not(.footer-logos a):hover {
-  color: var(--text);
-}
-
-/* ======================
-   Media Queries
-====================== */
-
-/* dark mode 的 tag / back-link 顏色 */
 @media (prefers-color-scheme: dark) {
-  .tag {
-    color: var(--teal);
-  }
   .back-link {
     color: var(--teal);
   }
@@ -497,7 +497,52 @@ a {
   padding: 0 4px;
 }
 
-/* 手機版 */
+/* ======================
+   Footer
+====================== */
+.footer {
+  text-align: center;
+  padding: 16px;
+  font-size: 12px;
+  color: var(--text-muted);
+  border-top: 1px solid var(--border);
+}
+
+.footer-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.footer-logos a {
+  display: inline-flex;
+  opacity: 0.85;
+  transition: opacity 0.2s;
+}
+
+.footer-logos a:hover {
+  opacity: 1;
+}
+
+.footer-logos img {
+  display: block;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
+
+.footer a:not(.footer-logos a) {
+  color: var(--teal);
+}
+
+.footer a:not(.footer-logos a):hover {
+  color: var(--text);
+}
+
+/* ======================
+   Mobile (max-width: 600px)
+====================== */
 @media (max-width: 600px) {
   body {
     padding: 0;
@@ -526,6 +571,11 @@ a {
   .tags {
     flex-direction: row;
     flex-wrap: wrap;
+  }
+
+  .tags-scrollable {
+    max-height: none;
+    overflow-y: visible;
   }
 
   .gallery {

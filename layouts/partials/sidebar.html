@@ -3,14 +3,26 @@
   <nav class="tags">
     <a href="{{ "/" | relURL }}"
        class="tag {{ if .IsHome }}active{{ end }}">
-      All ({{ len (where site.RegularPages "Section" "posts") }})
+      All ({{ len (where .Site.RegularPages "Section" "posts") }})
     </a>
 
-    {{- range .Site.Taxonomies.tags.Alphabetical }}
+    {{- range .Site.Taxonomies.categories.Alphabetical }}
     <a href="{{ .Page.RelPermalink }}"
        class="tag {{ if eq $.RelPermalink .Page.RelPermalink }}active{{ end }}">
       {{ .Page.Title }} ({{ .Count }})
     </a>
     {{- end }}
   </nav>
+
+  <details class="tags-mobile">
+    <summary><h3>Tags</h3></summary>
+    <nav class="tags tags-scrollable">
+    {{- range .Site.Taxonomies.tags.Alphabetical }}
+    <a href="{{ .Page.RelPermalink }}"
+       class="tag {{ if eq $.RelPermalink .Page.RelPermalink }}active{{ end }}">
+      {{ .Page.Title }} ({{ .Count }})
+    </a>
+    {{- end }}
+    </nav>
+  </details>
 </aside>

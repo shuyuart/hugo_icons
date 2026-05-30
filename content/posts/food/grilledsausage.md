@@ -1,7 +1,8 @@
-﻿---
+---
 title: "烤香腸"
 date: 2026-04-23T14:41:52+08:00
-tags: ["食物"]
+categories: ["食物飲料"]
+tags: ["食物","台灣特色"]
 image: "/icons/food/grilledsausage/grilledsausage16_bk.png"
 ---
 

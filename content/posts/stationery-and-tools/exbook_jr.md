@@ -1,7 +1,8 @@
 ---
 title: "國中作業簿（直）"
 date: 2026-05-28T18:54:54+08:00
-tags: ["文具五金"]
+categories: ["文具五金"]
+tags: ["文具","教育"]
 image: "/icons/stationery-and-tools/exbook_jr/exbook_jr16_bk.png"
 ---
 

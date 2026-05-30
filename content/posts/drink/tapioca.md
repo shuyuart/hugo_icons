@@ -1,7 +1,8 @@
-﻿---
+---
 title: "珍珠奶茶"
 date: 2026-04-02T11:06:25+08:00
-tags: ["飲料"]
+categories: ["食物飲料"]
+tags: ["飲料","台灣特色"]
 image: "/icons/drink/tapioca/tapioca16_bk.png"
 draft: false
 ---

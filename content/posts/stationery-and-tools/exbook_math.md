@@ -1,7 +1,8 @@
 ---
 title: "高中作業簿"
 date: 2026-05-28T18:55:19+08:00
-tags: ["文具五金"]
+categories: ["文具五金"]
+tags: ["文具","教育"]
 image: "/icons/stationery-and-tools/exbook_math/exbook_math16_bk.png"
 ---
 

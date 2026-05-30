@@ -1,7 +1,8 @@
-﻿---
+---
 title: "瓦斯桶"
 date: 2026-04-23T14:42:46+08:00
-tags: [日常生活]
+categories: ["日常生活"]
+tags: ["台灣特色"]
 image: "/icons/daily-life/gascylinder/gascylinder16_bk.png"
 ---
 

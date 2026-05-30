@@ -1,7 +1,8 @@
 ---
 title: "發財車"
 date: 2026-05-23T17:49:15+08:00
-tags: ["城市環境"]
+categories: ["城市環境"]
+tags: ["交通","台灣特色"]
 image: "/icons/urban-life/keitruck/keitruck16_bk.png"
 ---
 

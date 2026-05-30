@@ -1,7 +1,8 @@
-﻿---
+---
 title: "金桔檸檬"
 date: 2026-04-23T14:42:17+08:00
-tags: ["飲料"]
+categories: ["食物飲料"]
+tags: ["飲料","台灣特色"]
 image: "/icons/drink/kumquatlemon/kumquatlemon16_bk.png"
 ---
 

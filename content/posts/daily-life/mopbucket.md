@@ -1,7 +1,8 @@
-﻿---
+---
 title: "擰水拖把桶"
 date: 2026-04-30T23:42:44+08:00
-tags: ["日常生活"]
+categories: ["日常生活"]
+tags: ["清潔用品"]
 image: "/icons/daily-life/mopbucket/mopbucket16_bk.png"
 ---
 

@@ -1,7 +1,8 @@
-﻿---
+---
 title: "色鉛筆"
 date: 2026-04-23T17:20:10+08:00
-tags: ["文具五金","休閒娛樂"]
+categories: ["文具五金"]
+tags: ["文具", "休閒娛樂"]
 image: "/icons/stationery-and-tools/coloredpencils/coloredpencils16_bk.png"
 ---
 
