@@ -2,7 +2,7 @@
 title: "復古電視機"
 date: 2026-04-23T17:17:52+08:00
 categories: ["電子電器"]
-tags: ["懷舊"]
+tags: ["懷舊","家電"]
 image: "/icons/entertainment/retrotv/retrotv16_bk.png"
 ---
 
