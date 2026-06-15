@@ -1,6 +1,7 @@
 ---
 title: "{{ replace .File.ContentBaseName "-" " " | title }}"
 date: {{ .Date }}
+categories: []
 tags: []
 image: "/icons/{{ index (split .File.Dir "/") 1 }}/{{ .File.ContentBaseName }}/{{ .File.ContentBaseName }}16_bk.png"
 ---
