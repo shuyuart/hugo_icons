@@ -2,7 +2,7 @@
 title: "西瓜"
 date: 2026-04-02T11:02:00+08:00
 categories: ["食物飲料"]
-tags: ["食物","台灣特色"]
+tags: ["蔬果","台灣特色"]
 image: "/icons/food/watermelon/watermelon16_bk.png"
 draft: false
 ---

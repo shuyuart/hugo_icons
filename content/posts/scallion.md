@@ -2,7 +2,7 @@
 title: "三星蔥"
 date: 2026-06-15T19:28:04+08:00
 categories: ["食物飲料"]
-tags: ["宜蘭名產","台灣特色"]
+tags: ["宜蘭名產","台灣特色","蔬果"]
 image: "/icons/yilan/scallion/scallion16_bk.png"
 ---
 

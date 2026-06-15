@@ -2,7 +2,7 @@
 title: "三星蔥牛軋餅"
 date: 2026-06-15T19:28:17+08:00
 categories: ["食物飲料"]
-tags: ["宜蘭名產","台灣特色"]
+tags: ["宜蘭名產","台灣特色","零食"]
 image: "/icons/yilan/nougatcracker/nougatcracker16_bk.png"
 ---
 

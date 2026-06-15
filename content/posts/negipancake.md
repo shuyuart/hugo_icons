@@ -2,7 +2,7 @@
 title: "蔥油餅"
 date: 2026-06-15T19:27:47+08:00
 categories: ["食物飲料"]
-tags: ["宜蘭名產","台灣特色"]
+tags: ["宜蘭名產","台灣特色","小吃"]
 image: "/icons/yilan/negipancake/negipancake16_bk.png"
 ---
 

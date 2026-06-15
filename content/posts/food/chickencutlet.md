@@ -2,7 +2,7 @@
 title: "雞排"
 date: 2026-04-02T11:03:36+08:00
 categories: ["食物飲料"]
-tags: ["食物","台灣特色"]
+tags: ["小吃","台灣特色"]
 image: "/icons/food/chickencutlet/chickencutlet16_bk.png"
 draft: false
 ---

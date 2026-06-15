@@ -2,7 +2,7 @@
 title: "鹼粽（有粽葉）"
 date: 2026-05-16T19:27:01+08:00
 categories: ["節慶習俗"]
-tags: ["端午節","食物"]
+tags: ["端午節","米食"]
 image: "/icons/festivals/alkalizongzi_leaf/alkalizongzi_leaf16_bk.png"
 ---
 
