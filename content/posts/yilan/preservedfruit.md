@@ -2,7 +2,7 @@
 title: "蜜餞"
 date: 2026-06-15T22:49:16+08:00
 categories: ["食物飲料"]
-tags: ["宜蘭名產","台灣特色","零食"]
+tags: ["宜蘭名產","台灣特色","甜點零食"]
 image: "/icons/yilan/preservedfruit/preservedfruit16_bk.png"
 ---
 

@@ -2,7 +2,7 @@
 title: "金棗"
 date: 2026-06-15T22:48:57+08:00
 categories: ["食物飲料"]
-tags: ["宜蘭名產","台灣特色","蔬果"]
+tags: ["宜蘭名產","台灣特色","蔬菜水果"]
 image: "/icons/yilan/kumquat/kumquat16_bk.png"
 ---
 

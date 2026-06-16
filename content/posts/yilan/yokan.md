@@ -2,7 +2,7 @@
 title: "蘇澳羊羹"
 date: 2026-06-15T19:27:19+08:00
 categories: ["食物飲料"]
-tags: ["宜蘭名產","台灣特色","甜點"]
+tags: ["宜蘭名產","台灣特色","甜點零食"]
 image: "/icons/yilan/yokan/yokan16_bk.png"
 ---
 
