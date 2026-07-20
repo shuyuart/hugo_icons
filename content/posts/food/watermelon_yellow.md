@@ -2,7 +2,7 @@
 title: "西瓜（黃色）"
 date: 2026-04-02T11:02:02+08:00
 categories: ["食物飲料"]
-tags: ["蔬菜水果","台灣特色"]
+tags: ["蔬菜水果","台灣特色","夏"]
 image: "/icons/food/watermelon_yellow/watermelon_yellow16_bk.png"
 ---
 
