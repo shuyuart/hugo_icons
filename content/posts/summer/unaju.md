@@ -2,7 +2,7 @@
 title: "鰻魚飯"
 date: 2026-07-20T23:59:13+08:00
 categories: ["食物飲料"]
-tags: ["夏","日式料理"]
+tags: ["夏","日式"]
 image: "/icons/summer/unaju/unaju16_bk.png"
 ---
 

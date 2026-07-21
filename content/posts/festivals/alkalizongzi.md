@@ -2,7 +2,7 @@
 title: "鹼粽"
 date: 2026-05-16T19:26:50+08:00
 categories: ["節慶習俗"]
-tags: ["端午節","米食"]
+tags: ["端午節"]
 image: "/icons/festivals/alkalizongzi/alkalizongzi16_bk.png"
 ---
 

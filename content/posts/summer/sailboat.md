@@ -1,0 +1,33 @@
+---
+title: "帆船"
+date: 2026-07-21T22:48:46+08:00
+categories: ["休閒娛樂"]
+tags: ["夏","交通"]
+image: "/icons/summer/sailboat/sailboat16_bk.png"
+---
+
+以風力推進的水上交通工具，現多作為休閒運動。
+
+<div class="download-group">
+  <img src="/icons/summer/sailboat/sailboat16_bk32.png" alt="Sailboat 像素圖示（黑框版）">
+  <span class="download-label">下載黑框</span>
+  <div class="download-row">
+    <a href="/icons/summer/sailboat/sailboat16_bk.png" download class="btn-download">16x16</a>
+    <a href="/icons/summer/sailboat/sailboat16_bk32.png" download class="btn-download">32x32</a>
+    <a href="/icons/summer/sailboat/sailboat16_bk64.png" download class="btn-download">64x64</a>
+    <a href="/icons/summer/sailboat/sailboat16_bk128.png" download class="btn-download">128x128</a>
+  </div>
+</div>
+
+<br>
+
+<div class="download-group">
+  <img src="/icons/summer/sailboat/sailboat16_cr32.png" alt="Sailboat 像素圖示（無框版）">
+  <span class="download-label">下載無框</span>
+  <div class="download-row">
+    <a href="/icons/summer/sailboat/sailboat16_cr.png" download class="btn-download">16x16</a>
+    <a href="/icons/summer/sailboat/sailboat16_cr32.png" download class="btn-download">32x32</a>
+    <a href="/icons/summer/sailboat/sailboat16_cr64.png" download class="btn-download">64x64</a>
+    <a href="/icons/summer/sailboat/sailboat16_cr128.png" download class="btn-download">128x128</a>
+  </div>
+</div>

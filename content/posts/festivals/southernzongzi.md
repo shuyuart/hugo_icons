@@ -2,7 +2,7 @@
 title: "南部粽"
 date: 2026-05-16T19:26:17+08:00
 categories: ["節慶習俗"]
-tags: ["端午節","米食"]
+tags: ["端午節"]
 image: "/icons/festivals/southernzongzi/southernzongzi16_bk.png"
 ---
 
