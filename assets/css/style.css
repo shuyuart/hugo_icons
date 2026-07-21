@@ -452,6 +452,33 @@ a {
 }
 
 /* ======================
+   Post nav (prev / home / next)
+====================== */
+.post-nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  margin-top: 24px;
+}
+
+.post-nav .back-link {
+  margin-top: 0;
+}
+
+.post-nav .back-link.disabled {
+  opacity: 0.3;
+  pointer-events: none;
+}
+
+@media (max-width: 600px) {
+  .post-nav {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+/* ======================
    Pagination
 ====================== */
 .pagination {

@@ -21,7 +21,32 @@
     {{ .Content }}
   </div>
   {{- end }}
-  <a href="{{ "/" | relURL }}" class="back-link">← 回首頁</a>
+  {{- $pages := where site.RegularPages "Section" "posts" }}
+  {{- $prevPost := "" }}
+  {{- $nextPost := "" }}
+  {{- range $i, $p := $pages }}
+    {{- if eq $p.RelPermalink $.RelPermalink }}
+      {{- if lt (add $i 1) (len $pages) }}
+        {{- $prevPost = index $pages (add $i 1) }}
+      {{- end }}
+      {{- if gt $i 0 }}
+        {{- $nextPost = index $pages (sub $i 1) }}
+      {{- end }}
+    {{- end }}
+  {{- end }}
+  <nav class="post-nav">
+    {{- if $nextPost }}
+    <a href="{{ $nextPost.RelPermalink }}" class="back-link">← 下一張</a>
+    {{- else }}
+    <span class="back-link disabled">← 下一張</span>
+    {{- end }}
+    <a href="{{ "/" | relURL }}" class="back-link">回首頁</a>
+    {{- if $prevPost }}
+    <a href="{{ $prevPost.RelPermalink }}" class="back-link">上一張 →</a>
+    {{- else }}
+    <span class="back-link disabled">上一張 →</span>
+    {{- end }}
+  </nav>
 </article>
 
 <script>
