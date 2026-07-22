@@ -40,7 +40,7 @@
     {{- else }}
     <span class="back-link disabled">← 下一張</span>
     {{- end }}
-    <a href="{{ "/" | relURL }}" class="back-link">回首頁</a>
+    <a href="{{ "/" | relURL }}" class="back-link home">回首頁</a>
     {{- if $prevPost }}
     <a href="{{ $prevPost.RelPermalink }}" class="back-link">上一張 →</a>
     {{- else }}

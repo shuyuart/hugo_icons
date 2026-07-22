@@ -14,15 +14,21 @@
     {{- end }}
   </nav>
 
-  <details class="tags-mobile">
-    <summary><h3>Tags</h3></summary>
-    <nav class="tags tags-scrollable">
-    {{- range .Site.Taxonomies.tags.Alphabetical }}
-    <a href="{{ .Page.RelPermalink }}"
-       class="tag {{ if eq $.RelPermalink .Page.RelPermalink }}active{{ end }}">
-      {{ .Page.Title }} ({{ .Count }})
-    </a>
+  <h3>Topics</h3>
+  {{- $featured := slice "台灣特色" "宜蘭名產"}}
+  {{- $tagsByTitle := dict }}
+  {{- range .Site.Taxonomies.tags.Alphabetical }}
+    {{- $tagsByTitle = merge $tagsByTitle (dict .Page.Title .) }}
+  {{- end }}
+  <nav class="tags">
+    {{- range $featured }}
+      {{- $item := index $tagsByTitle . }}
+      {{- if $item }}
+      <a href="{{ $item.Page.RelPermalink }}"
+         class="tag {{ if eq $.RelPermalink $item.Page.RelPermalink }}active{{ end }}">
+        {{ $item.Page.Title }} ({{ $item.Count }})
+      </a>
+      {{- end }}
     {{- end }}
-    </nav>
-  </details>
+  </nav>
 </aside>

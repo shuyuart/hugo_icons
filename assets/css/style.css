@@ -138,7 +138,7 @@ a {
 .nav a {
   display: inline-block;
   margin: 0 12px;
-  font-size: 13px;
+  font-size: 14px;
   color: var(--text-muted);
   transition: color 0.15s;
 }
@@ -153,7 +153,7 @@ a {
 ====================== */
 .container {
   display: flex;
-  gap: 0;
+  gap: 20px;
   padding: 20px 24px 28px;
   align-items: flex-start;
 }
@@ -170,11 +170,10 @@ a {
 .sidebar {
   width: 168px;
   flex-shrink: 0;
-  padding-right: 20px;
 }
 
 .sidebar h3 {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -182,46 +181,56 @@ a {
   margin: 0 0 10px;
 }
 
+.sidebar .tag {
+  font-size: 12.5px;
+}
+
 /* ======================
-   Tags (collapsible block)
+   Tag Cloud (below article, inside .main)
 ====================== */
-.tags-mobile {
-  margin-bottom: 16px;
+.tag-cloud {
+  margin-top: 32px;
+  padding-top: 20px;
+  border-top: 1px solid var(--border);
 }
 
-.tags-mobile > summary {
-  list-style: none;
-  cursor: pointer;
-  user-select: none;
+.tag-cloud h3 {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin: 0 0 10px;
+}
+
+.tags-grid {
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
   gap: 6px;
-  margin-bottom: 10px;
 }
 
-.tags-mobile > summary::-webkit-details-marker {
-  display: none;
+.tags-grid .tag {
+  text-align: left;
 }
 
-.tags-mobile > summary h3 {
-  display: inline;
-  margin: 0;
+/* Quieter, outline style so it doesn't compete with the sidebar */
+.tag-cloud .tag {
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--text-muted);
 }
 
-.tags-mobile > summary::after {
-  content: "▶";
-  font-size: 16px;
+.tag-cloud .tag:hover {
+  background: var(--teal-light);
   color: var(--teal);
-  transition: transform 0.2s;
+  border-color: var(--teal-mid);
 }
 
-.tags-mobile[open] > summary::after {
-  transform: rotate(90deg);
-}
-
-.tags-scrollable {
-  max-height: 600px;
-  overflow-y: auto;
+.tag-cloud .tag.active {
+  background: var(--teal-light);
+  color: var(--teal);
+  border-color: var(--teal-mid);
+  font-weight: 700;
 }
 
 /* ======================
@@ -451,6 +460,16 @@ a {
   }
 }
 
+.back-link.home {
+  background: var(--teal-solid);
+  color: #fff;
+}
+
+.back-link.home:hover {
+  background: var(--teal);
+  color: #fff;
+}
+
 /* ======================
    Post nav (prev / home / next)
 ====================== */
@@ -588,7 +607,6 @@ a {
 
   .sidebar {
     width: 100%;
-    padding-right: 0;
   }
 
   .sidebar h3 {

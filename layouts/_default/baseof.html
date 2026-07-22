@@ -30,6 +30,7 @@
       {{ partial "sidebar.html" . }}
       <main class="main">
         {{ block "main" . }}{{ end }}
+        {{ partial "tags-full.html" . }}
       </main>
     </div>
 

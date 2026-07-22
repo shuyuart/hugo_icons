@@ -1,0 +1,11 @@
+<section class="tag-cloud">
+  <h3>Tags</h3>
+  <nav class="tags-grid">
+    {{- range .Site.Taxonomies.tags.Alphabetical }}
+    <a href="{{ .Page.RelPermalink }}"
+       class="tag {{ if eq $.RelPermalink .Page.RelPermalink }}active{{ end }}">
+      {{ .Page.Title }} ({{ .Count }})
+    </a>
+    {{- end }}
+  </nav>
+</section>
