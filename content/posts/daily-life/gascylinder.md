@@ -14,9 +14,9 @@ image: "/icons/daily-life/gascylinder/gascylinder16_bk.png"
   <div class="download-row">
     <a href="/icons/daily-life/gascylinder/gascylinder16_bk.png" download class="btn-download">16x16</a>
     <a href="/icons/daily-life/gascylinder/gascylinder16_bk32.png" download class="btn-download">32x32</a>
-    <a href="/icons/daily-life/gascylinder/gascylinder16_bk64.png" download class="btn-download">64x64</a>
+    <a href="https://img.shuyuart.com/icons/daily-life/gascylinder/gascylinder16_bk64.png" download class="btn-download">64x64</a>
     <a
-href="/icons/daily-life/gascylinder/gascylinder16_bk128.png" download class="btn-download">128x128</a>
+href="https://img.shuyuart.com/icons/daily-life/gascylinder/gascylinder16_bk128.png" download class="btn-download">128x128</a>
   </div>
 </div>
 
@@ -28,8 +28,8 @@ href="/icons/daily-life/gascylinder/gascylinder16_bk128.png" download class="btn
   <div class="download-row">
     <a href="/icons/daily-life/gascylinder/gascylinder16_cr.png" download class="btn-download">16x16</a>
     <a href="/icons/daily-life/gascylinder/gascylinder16_cr32.png" download class="btn-download">32x32</a>
-    <a href="/icons/daily-life/gascylinder/gascylinder16_cr64.png" download class="btn-download">64x64</a>
+    <a href="https://img.shuyuart.com/icons/daily-life/gascylinder/gascylinder16_cr64.png" download class="btn-download">64x64</a>
     <a
-href="/icons/daily-life/gascylinder/gascylinder16_cr128.png" download class="btn-download">128x128</a>
+href="https://img.shuyuart.com/icons/daily-life/gascylinder/gascylinder16_cr128.png" download class="btn-download">128x128</a>
   </div>
 </div>

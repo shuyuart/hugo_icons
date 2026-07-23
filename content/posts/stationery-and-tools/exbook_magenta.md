@@ -14,8 +14,8 @@ image: "/icons/stationery-and-tools/exbook_magentav2/exbook_magenta16v2_bk.png"
   <div class="download-row">
     <a href="/icons/stationery-and-tools/exbook_magentav2/exbook_magenta16v2_bk.png" download class="btn-download">16x16</a>
     <a href="/icons/stationery-and-tools/exbook_magentav2/exbook_magenta16v2_bk32.png" download class="btn-download">32x32</a>
-    <a href="/icons/stationery-and-tools/exbook_magentav2/exbook_magenta16v2_bk64.png" download class="btn-download">64x64</a>
-    <a href="/icons/stationery-and-tools/exbook_magentav2/exbook_magenta16v2_bk128.png" download class="btn-download">128x128</a>
+    <a href="https://img.shuyuart.com/icons/stationery-and-tools/exbook_magentav2/exbook_magenta16v2_bk64.png" download class="btn-download">64x64</a>
+    <a href="https://img.shuyuart.com/icons/stationery-and-tools/exbook_magentav2/exbook_magenta16v2_bk128.png" download class="btn-download">128x128</a>
   </div>
 </div>
 
@@ -27,7 +27,7 @@ image: "/icons/stationery-and-tools/exbook_magentav2/exbook_magenta16v2_bk.png"
   <div class="download-row">
     <a href="/icons/stationery-and-tools/exbook_magentav2/exbook_magenta16v2_cr.png" download class="btn-download">16x16</a>
     <a href="/icons/stationery-and-tools/exbook_magentav2/exbook_magenta16v2_cr32.png" download class="btn-download">32x32</a>
-    <a href="/icons/stationery-and-tools/exbook_magentav2/exbook_magenta16v2_cr64.png" download class="btn-download">64x64</a>
-    <a href="/icons/stationery-and-tools/exbook_magentav2/exbook_magenta16v2_cr128.png" download class="btn-download">128x128</a>
+    <a href="https://img.shuyuart.com/icons/stationery-and-tools/exbook_magentav2/exbook_magenta16v2_cr64.png" download class="btn-download">64x64</a>
+    <a href="https://img.shuyuart.com/icons/stationery-and-tools/exbook_magentav2/exbook_magenta16v2_cr128.png" download class="btn-download">128x128</a>
   </div>
 </div>
