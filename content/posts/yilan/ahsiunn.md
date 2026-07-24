@@ -2,7 +2,7 @@
 title: "鴨賞"
 date: 2026-06-15T22:49:31+08:00
 categories: ["食物飲料"]
-tags: ["宜蘭名產","台灣特色","小吃"]
+tags: ["宜蘭名產","小吃"]
 image: "/icons/yilan/ahsiunn/ahsiunn16_bk.png"
 ---
 

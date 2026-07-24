@@ -2,7 +2,7 @@
 title: "米粉羹"
 date: 2026-06-16T14:48:52+08:00
 categories: ["食物飲料"]
-tags: ["宜蘭名產","台灣特色","小吃"]
+tags: ["宜蘭名產","小吃"]
 image: "/icons/yilan/bihunkenn/bihunkenn16_bk.png"
 ---
 

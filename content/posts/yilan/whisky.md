@@ -2,7 +2,7 @@
 title: "威士忌"
 date: 2026-06-16T14:49:17+08:00
 categories: ["食物飲料"]
-tags: ["宜蘭名產","台灣特色","飲料"]
+tags: ["宜蘭名產","飲料"]
 image: "/icons/yilan/whisky/whisky16_bk.png"
 ---
 

@@ -2,7 +2,7 @@
 title: "麻醬麵"
 date: 2026-06-16T14:49:00+08:00
 categories: ["食物飲料"]
-tags: ["宜蘭名產","台灣特色","小吃"]
+tags: ["宜蘭名產","小吃"]
 image: "/icons/yilan/sesamenoodles/sesamenoodles16_bk.png"
 ---
 

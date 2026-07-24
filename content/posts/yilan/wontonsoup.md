@@ -2,7 +2,7 @@
 title: "餛飩湯"
 date: 2026-06-15T22:51:20+08:00
 categories: ["食物飲料"]
-tags: ["宜蘭名產","台灣特色","小吃"]
+tags: ["宜蘭名產","小吃"]
 image: "/icons/yilan/wontonsoup/wontonsoup16_bk.png"
 ---
 

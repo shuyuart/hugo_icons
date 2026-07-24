@@ -2,7 +2,7 @@
 title: "水稻田"
 date: 2026-06-15T19:01:10+08:00
 categories: ["城市環境"]
-tags: ["宜蘭名產","台灣特色","戶外景觀"]
+tags: ["宜蘭名產","戶外景觀"]
 image: "/icons/yilan/paddy/paddy16_bk.png"
 ---
 

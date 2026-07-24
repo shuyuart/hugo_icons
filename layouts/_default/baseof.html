@@ -30,7 +30,9 @@
       {{ partial "sidebar.html" . }}
       <main class="main">
         {{ block "main" . }}{{ end }}
+        {{- if or .IsHome (eq .Section "posts") }}
         {{ partial "tags-full.html" . }}
+        {{- end }}
       </main>
     </div>
 

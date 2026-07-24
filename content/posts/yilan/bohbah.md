@@ -2,7 +2,7 @@
 title: "卜肉"
 date: 2026-06-15T22:50:12+08:00
 categories: ["食物飲料"]
-tags: ["宜蘭名產","台灣特色","小吃"]
+tags: ["宜蘭名產","小吃"]
 image: "/icons/yilan/bohbah/bohbah16_bk.png"
 ---
 

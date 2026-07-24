@@ -2,7 +2,7 @@
 title: "一串心"
 date: 2026-06-16T14:48:23+08:00
 categories: ["食物飲料"]
-tags: ["宜蘭名產","台灣特色","小吃"]
+tags: ["宜蘭名產","小吃"]
 image: "/icons/yilan/stringheart/stringheart16_bk.png"
 ---
 

@@ -2,7 +2,7 @@
 title: "白粉圓"
 date: 2026-06-16T14:48:32+08:00
 categories: ["食物飲料"]
-tags: ["宜蘭名產","台灣特色","飲料"]
+tags: ["宜蘭名產","飲料"]
 image: "/icons/yilan/whitetapioca/whitetapioca16_bk.png"
 ---
 

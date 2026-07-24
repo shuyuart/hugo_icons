@@ -2,7 +2,7 @@
 title: "利澤簡橋"
 date: 2026-06-15T19:01:24+08:00
 categories: ["城市環境"]
-tags: ["宜蘭名產","台灣特色","建築"]
+tags: ["宜蘭名產","建築"]
 image: "/icons/yilan/lizejianbridge/lizejianbridge16_bk.png"
 ---
 

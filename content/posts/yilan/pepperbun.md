@@ -2,7 +2,7 @@
 title: "胡椒餅"
 date: 2026-06-16T14:49:09+08:00
 categories: ["食物飲料"]
-tags: ["宜蘭名產","台灣特色","小吃"]
+tags: ["宜蘭名產","小吃"]
 image: "/icons/yilan/pepperbun/pepperbun16_bk.png"
 ---
 
