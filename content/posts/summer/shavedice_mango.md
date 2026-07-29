@@ -1,12 +1,12 @@
 ---
-title: "芒果剉冰"
+title: "芒果雪花冰"
 date: 2026-07-20T23:59:58+08:00
 categories: ["食物飲料"]
-tags: ["甜點零食","夏"]
+tags: ["冰品","夏"]
 image: "/icons/summer/shavedice_mango/shavedice_mango16_bk.png"
 ---
 
-剉冰上疊滿香甜芒果，台灣夏季代表性冰品。
+雪花冰上疊滿香甜芒果，台灣夏季代表性冰品。
 
 <div class="download-group">
   <img src="/icons/summer/shavedice_mango/shavedice_mango16_bk32.png" alt="Shavedice_mango 像素圖示（黑框版）">

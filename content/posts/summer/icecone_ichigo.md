@@ -2,7 +2,7 @@
 title: "草莓冰淇淋"
 date: 2026-07-21T22:49:16+08:00
 categories: ["食物飲料"]
-tags: ["甜點零食","夏"]
+tags: ["冰品","夏"]
 image: "/icons/summer/icecone_ichigo/icecone_ichigo16_bk.png"
 ---
 

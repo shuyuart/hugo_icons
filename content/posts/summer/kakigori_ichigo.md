@@ -2,7 +2,7 @@
 title: "日式刨冰（草莓）"
 date: 2026-07-20T18:14:33+08:00
 categories: ["食物飲料"]
-tags: ["夏","甜點零食"]
+tags: ["夏","冰品","日式"]
 image: "/icons/summer/kakigori_ichigo/kakigori_ichigo16_bk.png"
 ---
 

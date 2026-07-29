@@ -2,7 +2,7 @@
 title: "涼麵"
 date: 2026-07-21T19:11:08+08:00
 categories: ["食物飲料"]
-tags: ["小吃","夏"]
+tags: ["小吃","夏","台灣特色"]
 image: "/icons/summer/hiyashichuuka/hiyashichuuka16_bk.png"
 ---
 

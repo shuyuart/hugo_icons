@@ -2,7 +2,7 @@
 title: "花生捲冰淇淋"
 date: 2026-06-16T14:48:43+08:00
 categories: ["食物飲料"]
-tags: ["宜蘭名產","甜點零食"]
+tags: ["宜蘭名產","冰品"]
 image: "/icons/yilan/peanuticerollv2/peanuticeroll16v2_bk.png"
 ---
 

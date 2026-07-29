@@ -2,7 +2,7 @@
 title: "脆皮雪糕"
 date: 2026-07-21T19:11:32+08:00
 categories: ["食物飲料"]
-tags: ["甜點零食","夏"]
+tags: ["冰品","夏"]
 image: "/icons/summer/icebar_crunchy/icebar_crunchy16_bk.png"
 ---
 

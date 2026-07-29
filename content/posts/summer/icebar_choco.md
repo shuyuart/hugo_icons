@@ -2,7 +2,7 @@
 title: "巧克力雪糕"
 date: 2026-07-21T19:11:22+08:00
 categories: ["食物飲料"]
-tags: ["甜點零食","夏"]
+tags: ["冰品","夏"]
 image: "/icons/summer/icebar_choco/icebar_choco16_bk.png"
 ---
 

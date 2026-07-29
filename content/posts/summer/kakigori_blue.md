@@ -2,7 +2,7 @@
 title: "日式刨冰（藍色夏威夷）"
 date: 2026-07-20T18:14:53+08:00
 categories: ["食物飲料"]
-tags: ["夏","甜點零食"]
+tags: ["夏","冰品","日式"]
 image: "/icons/summer/kakigori_blue/kakigori_blue16_bk.png"
 ---
 
