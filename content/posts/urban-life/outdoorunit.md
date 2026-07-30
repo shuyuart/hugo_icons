@@ -1,7 +1,7 @@
 ---
 title: "室外機"
 date: 2026-07-29T23:27:56+08:00
-categories: ["城市環境"]
+categories: ["電子電器"]
 tags: ["街景","家電","夏"]
 image: "/icons/urban-life/outdoorunit/outdoorunit16_bk.png"
 ---
