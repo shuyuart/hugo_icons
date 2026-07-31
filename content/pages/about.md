@@ -29,7 +29,7 @@ draft: false
 
 關於本站的建議，歡迎利用表單與我聯絡
 
-<script data-letterbirduser="shuyulin1127" src="https://letterbird.co/embed/v1.js"></script>
+<script data-letterbirduser="shuyuart" src="https://letterbird.co/embed/v1.js"></script>
 
 ---
 
