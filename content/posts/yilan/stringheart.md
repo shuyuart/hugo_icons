@@ -22,12 +22,12 @@ image: "/icons/yilan/stringheart/stringheart16_bk.png"
 <br>
 
 <div class="download-group">
-  <img src="/icons/yilan/stringheart/stringheart16_cr32.png" alt="Stringheart 像素圖示（無框版）">
+  <img src="/icons/yilan/stringheart/stringheart16_crv232.png" alt="Stringheart 像素圖示（無框版）">
   <span class="download-label">下載無框</span>
   <div class="download-row">
-    <a href="/icons/yilan/stringheart/stringheart16_cr.png" download class="btn-download">16x16</a>
-    <a href="/icons/yilan/stringheart/stringheart16_cr32.png" download class="btn-download">32x32</a>
-    <a href="https://img.shuyuart.com/icons/yilan/stringheart/stringheart16_cr64.png" download class="btn-download">64x64</a>
-    <a href="https://img.shuyuart.com/icons/yilan/stringheart/stringheart16_cr128.png" download class="btn-download">128x128</a>
+    <a href="/icons/yilan/stringheart/stringheart16_crv2.png" download class="btn-download">16x16</a>
+    <a href="/icons/yilan/stringheart/stringheart16_crv232.png" download class="btn-download">32x32</a>
+    <a href="https://img.shuyuart.com/icons/yilan/stringheart/stringheart16_crv264.png" download class="btn-download">64x64</a>
+    <a href="https://img.shuyuart.com/icons/yilan/stringheart/stringheart16_crv2128.png" download class="btn-download">128x128</a>
   </div>
 </div>
