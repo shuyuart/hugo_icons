@@ -2,7 +2,7 @@
 title: "菜包肉"
 date: 2026-11-12T21:42:54+08:00
 categories: ["食物飲料"]
-tags: ["韓式料理"]
+tags: ["韓式"]
 image: "/icons/k-food/ssam/ssam16_bk.png"
 ---
 

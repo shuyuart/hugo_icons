@@ -2,7 +2,7 @@
 title: "五花肉（生肉）"
 date: 2026-11-12T21:42:13+08:00
 categories: ["食物飲料"]
-tags: ["韓式料理"]
+tags: ["韓式"]
 image: "/icons/k-food/rawporkbelly/rawporkbelly16_bk.png"
 ---
 

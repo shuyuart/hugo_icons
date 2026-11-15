@@ -2,7 +2,7 @@
 title: "辣椒"
 date: 2026-11-12T21:42:25+08:00
 categories: ["食物飲料"]
-tags: ["韓式料理","蔬菜水果"]
+tags: ["韓式","蔬菜水果"]
 image: "/icons/k-food/chilipepper/chilipepper16_bk.png"
 ---
 

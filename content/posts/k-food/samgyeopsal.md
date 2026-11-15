@@ -2,7 +2,7 @@
 title: "烤五花肉"
 date: 2026-11-12T21:42:35+08:00
 categories: ["食物飲料"]
-tags: ["韓式料理"]
+tags: ["韓式"]
 image: "/icons/k-food/samgyeopsal/samgyeopsal16_bk.png"
 ---
 

@@ -2,7 +2,7 @@
 title: "青陽辣椒"
 date: 2026-11-12T21:41:59+08:00
 categories: ["食物飲料"]
-tags: ["韓式料理","蔬菜水果"]
+tags: ["韓式","蔬菜水果"]
 image: "/icons/k-food/cheongyanggochu/cheongyanggochu16_bk.png"
 ---
 
