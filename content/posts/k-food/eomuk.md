@@ -1,7 +1,7 @@
 ---
 title: "韓式魚板"
 date: 2026-11-17T22:22:43+08:00
-categories: ["'食物飲料"]
+categories: ["食物飲料"]
 tags: ["韓式"]
 image: "/icons/k-food/eomuk/eomuk16_bk.png"
 ---

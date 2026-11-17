@@ -1,7 +1,7 @@
 ---
 title: "石鍋拌飯"
 date: 2026-11-17T22:23:02+08:00
-categories: ["'食物飲料"]
+categories: ["食物飲料"]
 tags: ["韓式"]
 image: "/icons/k-food/bibimbap/bibimbap16_bk.png"
 ---
