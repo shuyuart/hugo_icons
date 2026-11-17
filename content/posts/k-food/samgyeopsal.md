@@ -6,7 +6,7 @@ tags: ["韓式"]
 image: "/icons/k-food/samgyeopsal/samgyeopsal16_bk.png"
 ---
 
-<!-- 簡短描述這個圖示的內容，可加 <br> 換行 -->
+一片烤熟的豬五花肉。
 
 <div class="download-group">
   <img src="/icons/k-food/samgyeopsal/samgyeopsal16_bk32.png" alt="Samgyeopsal 像素圖示（黑框版）">

@@ -2,7 +2,7 @@
 title: "扁可頌（開心果）"
 date: 2026-11-15T21:51:19+08:00
 categories: ["食物飲料"]
-tags: ["韓式"," 甜點零食"]
+tags: ["韓式","甜點零食"]
 image: "/icons/k-food/crungji_pistachio/crungji_pistachio16_bk.png"
 ---
 

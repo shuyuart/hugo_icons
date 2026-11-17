@@ -2,7 +2,7 @@
 title: "扁可頌（巧克力）"
 date: 2026-11-15T21:51:27+08:00
 categories: ["食物飲料"]
-tags: ["韓式"," 甜點零食"]
+tags: ["韓式","甜點零食"]
 image: "/icons/k-food/crungji_choco/crungji_choco16_bk.png"
 ---
 

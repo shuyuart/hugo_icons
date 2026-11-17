@@ -2,7 +2,7 @@
 title: "扁可頌"
 date: 2026-11-15T21:51:00+08:00
 categories: ["食物飲料"]
-tags: ["韓式"," 甜點零食"]
+tags: ["韓式","甜點零食"]
 image: "/icons/k-food/crungji/crungji16_bk.png"
 ---
 

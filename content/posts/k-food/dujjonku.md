@@ -2,7 +2,7 @@
 title: "杜Q餅"
 date: 2026-11-15T21:51:35+08:00
 categories: ["食物飲料"]
-tags: ["韓式"," 甜點零食"]
+tags: ["韓式","甜點零食"]
 image: "/icons/k-food/dujjonku/dujjonku16_bk.png"
 ---
 
